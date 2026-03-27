@@ -3,7 +3,7 @@
     "week": 17,
     "startDate": "2026-03-28",
     "generatedBy": "tubby",
-    "generatedAt": "2026-03-27T02:33:00.000Z"
+    "generatedAt": "2026-03-27T07:28:00.000Z"
   },
   "week": 17,
   "year": 2026,
@@ -83,101 +83,31 @@
           {
             "name": "Chicken savoury mince (frozen)",
             "amount": "450g total (250g J, 200g P)",
-            "category": "Meat & Seafood"
+            "category": "Frozen"
           },
           {
             "name": "Brown rice",
             "amount": "180g cooked (100g J, 80g P)",
             "category": "Pantry"
-          },
-          {
-            "name": "Onion",
-            "amount": "1 (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Garlic",
-            "amount": "2 cloves (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Carrot",
-            "amount": "1 (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Celery",
-            "amount": "2 stalks (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Chicken stock",
-            "amount": "1 cup (in batch)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Mixed herbs",
-            "amount": "1 tsp (in batch)",
-            "category": "Pantry"
           }
         ]
       },
       "dinner": {
-        "name": "Fish & Prawn Marinara + Brown Rice",
+        "name": "Dinner OUT — Werribee Mansion 🏰",
         "jason": {
-          "calories": 515,
-          "protein": 55,
-          "carbs": 40,
-          "fat": 10
+          "calories": 1400,
+          "protein": 70,
+          "carbs": 90,
+          "fat": 55
         },
         "penny": {
-          "calories": 365,
-          "protein": 40,
-          "carbs": 28,
-          "fat": 7
+          "calories": 950,
+          "protein": 50,
+          "carbs": 65,
+          "fat": 38
         },
-        "ingredients": [
-          {
-            "name": "Prawns (cooked & shelled)",
-            "amount": "400g (250g J, 150g P)",
-            "category": "Meat & Seafood"
-          },
-          {
-            "name": "Barramundi fillets",
-            "amount": "100g (60g J, 40g P)",
-            "category": "Meat & Seafood"
-          },
-          {
-            "name": "Tomato passata / marinara sauce",
-            "amount": "400g jar",
-            "category": "Pantry"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "250g (150g J, 100g P)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Garlic",
-            "amount": "2 cloves",
-            "category": "Produce"
-          },
-          {
-            "name": "Fresh basil",
-            "amount": "handful",
-            "category": "Produce"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tbsp",
-            "category": "Pantry"
-          },
-          {
-            "name": "Lemon",
-            "amount": "1/2",
-            "category": "Produce"
-          }
-        ]
+        "notes": "Fine dining with Cat & Andres — no cooking! Enjoy it.",
+        "ingredients": []
       },
       "snacks": {
         "name": "None planned",
@@ -196,16 +126,16 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 1592,
-        "protein": 155,
-        "carbs": 122,
-        "fat": 42
+        "calories": 2477,
+        "protein": 170,
+        "carbs": 172,
+        "fat": 87
       },
       "pennyTotal": {
-        "calories": 1140,
-        "protein": 111,
-        "carbs": 105,
-        "fat": 24
+        "calories": 1725,
+        "protein": 121,
+        "carbs": 142,
+        "fat": 55
       }
     },
     {
@@ -277,7 +207,7 @@
           "carbs": 6,
           "fat": 15
         },
-        "notes": "Batch cook day \u2014 3kg chicken mince going on after lunch!",
+        "notes": "Batch cook day — 3kg chicken mince going on after lunch!",
         "ingredients": [
           {
             "name": "Chicken thighs (boneless, skinless)",
@@ -317,49 +247,60 @@
         ]
       },
       "dinner": {
-        "name": "Red Curry Chicken + Mushrooms + Brown Rice",
+        "name": "Dinner OUT — Comedy Festival 🎭",
         "jason": {
-          "calories": 720,
-          "protein": 55,
-          "carbs": 58,
-          "fat": 28
+          "calories": 1200,
+          "protein": 50,
+          "carbs": 90,
+          "fat": 45
         },
         "penny": {
-          "calories": 480,
-          "protein": 38,
-          "carbs": 42,
-          "fat": 18
+          "calories": 850,
+          "protein": 35,
+          "carbs": 65,
+          "fat": 32
         },
+        "notes": "Out with neighbours for Comedy Festival — pub/bar food. Batch cook happening during the day!",
         "ingredients": [
           {
-            "name": "Chicken thighs (boneless, skinless)",
-            "amount": "330g (200g J, 130g P)",
+            "name": "Chicken mince (for batch cook)",
+            "amount": "3kg",
             "category": "Meat & Seafood"
           },
           {
-            "name": "Red curry paste",
-            "amount": "2 tbsp",
+            "name": "Brown rice (for batch cook)",
+            "amount": "3 cups dry",
             "category": "Pantry"
           },
           {
-            "name": "Coconut milk",
-            "amount": "400ml (1 can)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Mushrooms",
-            "amount": "250g (150g J, 100g P)",
+            "name": "Onion (for batch cook)",
+            "amount": "2 large",
             "category": "Produce"
           },
           {
-            "name": "Brown rice",
-            "amount": "250g (150g J, 100g P)",
+            "name": "Garlic (for batch cook)",
+            "amount": "1 bulb",
+            "category": "Produce"
+          },
+          {
+            "name": "Carrot (for batch cook)",
+            "amount": "2",
+            "category": "Produce"
+          },
+          {
+            "name": "Celery (for batch cook)",
+            "amount": "4 stalks",
+            "category": "Produce"
+          },
+          {
+            "name": "Chicken stock (for batch cook)",
+            "amount": "4 cups",
             "category": "Pantry"
           },
           {
-            "name": "Garlic",
-            "amount": "2 cloves",
-            "category": "Produce"
+            "name": "Mixed herbs (for batch cook)",
+            "amount": "2 tsp",
+            "category": "Spices & Seasonings"
           }
         ]
       },
@@ -380,16 +321,16 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 1742,
-        "protein": 159,
-        "carbs": 108,
-        "fat": 70
+        "calories": 2222,
+        "protein": 154,
+        "carbs": 140,
+        "fat": 87
       },
       "pennyTotal": {
-        "calories": 1160,
-        "protein": 106,
-        "carbs": 93,
-        "fat": 40
+        "calories": 1530,
+        "protein": 103,
+        "carbs": 116,
+        "fat": 54
       }
     },
     {
@@ -456,7 +397,7 @@
           "carbs": 6,
           "fat": 15
         },
-        "notes": "Pilates tonight for both",
+        "notes": "Group class 6pm tonight for both",
         "ingredients": [
           {
             "name": "Chicken thighs (boneless, skinless)",
@@ -517,12 +458,12 @@
           },
           {
             "name": "Asparagus",
-            "amount": "250g (150g J, 100g P)",
+            "amount": "150g",
             "category": "Produce"
           },
           {
             "name": "Cherry tomatoes",
-            "amount": "180g (100g J, 80g P)",
+            "amount": "250g",
             "category": "Produce"
           },
           {
@@ -684,58 +625,48 @@
         ]
       },
       "dinner": {
-        "name": "Baked Salmon + Asparagus + Cherry Tomatoes",
+        "name": "Red Curry Chicken + Mushrooms + Brown Rice",
         "jason": {
-          "calories": 755,
-          "protein": 76,
-          "carbs": 18,
-          "fat": 35
+          "calories": 720,
+          "protein": 55,
+          "carbs": 58,
+          "fat": 28
         },
         "penny": {
-          "calories": 550,
-          "protein": 44,
-          "carbs": 38,
-          "fat": 20
+          "calories": 480,
+          "protein": 38,
+          "carbs": 42,
+          "fat": 18
         },
         "ingredients": [
           {
-            "name": "Salmon fillets",
-            "amount": "350g (200g J, 150g P)",
+            "name": "Chicken thighs (boneless, skinless)",
+            "amount": "330g (200g J, 130g P)",
             "category": "Meat & Seafood"
           },
           {
-            "name": "Asparagus",
+            "name": "Red curry paste",
+            "amount": "2 tbsp",
+            "category": "Sauces & Condiments"
+          },
+          {
+            "name": "Coconut milk",
+            "amount": "400ml (1 can)",
+            "category": "Pantry"
+          },
+          {
+            "name": "Mushrooms",
             "amount": "250g (150g J, 100g P)",
             "category": "Produce"
           },
           {
-            "name": "Cherry tomatoes",
-            "amount": "180g (100g J, 80g P)",
-            "category": "Produce"
-          },
-          {
-            "name": "Cottage cheese",
-            "amount": "250g (Jason only)",
-            "category": "Dairy & Eggs"
-          },
-          {
             "name": "Brown rice",
-            "amount": "100g (Penny only)",
+            "amount": "250g (150g J, 100g P)",
             "category": "Pantry"
           },
           {
-            "name": "Olive oil",
-            "amount": "1 tbsp",
-            "category": "Pantry"
-          },
-          {
-            "name": "Lemon",
-            "amount": "1/2",
-            "category": "Produce"
-          },
-          {
-            "name": "Fresh herbs (dill / parsley)",
-            "amount": "small bunch",
+            "name": "Garlic",
+            "amount": "2 cloves",
             "category": "Produce"
           }
         ]
@@ -757,16 +688,16 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 1777,
-        "protein": 180,
-        "carbs": 68,
-        "fat": 77
+        "calories": 1742,
+        "protein": 159,
+        "carbs": 108,
+        "fat": 70
       },
       "pennyTotal": {
-        "calories": 1230,
-        "protein": 112,
-        "carbs": 89,
-        "fat": 42
+        "calories": 1160,
+        "protein": 106,
+        "carbs": 93,
+        "fat": 40
       }
     },
     {
@@ -843,41 +774,11 @@
             "name": "Brown rice",
             "amount": "180g cooked (100g J, 80g P)",
             "category": "Pantry"
-          },
-          {
-            "name": "Onion",
-            "amount": "1 (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Garlic",
-            "amount": "2 cloves (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Carrot",
-            "amount": "1 (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Celery",
-            "amount": "2 stalks (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Chicken stock",
-            "amount": "1 cup (in batch)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Mixed herbs",
-            "amount": "1 tsp (in batch)",
-            "category": "Pantry"
           }
         ]
       },
       "dinner": {
-        "name": "Beef Strips Stir-Fry + Brown Rice",
+        "name": "Beef Strips Stir-Fry + Brown Rice (from freezer 🧊)",
         "jason": {
           "calories": 530,
           "protein": 48,
@@ -892,9 +793,9 @@
         },
         "ingredients": [
           {
-            "name": "Beef strips",
+            "name": "Beef strips (from freezer)",
             "amount": "330g (200g J, 130g P)",
-            "category": "Meat & Seafood"
+            "category": "Frozen"
           },
           {
             "name": "Capsicum / bell peppers",
@@ -919,12 +820,12 @@
           {
             "name": "Soy sauce",
             "amount": "2 tbsp",
-            "category": "Pantry"
+            "category": "Sauces & Condiments"
           },
           {
             "name": "Sesame oil",
             "amount": "1 tsp",
-            "category": "Pantry"
+            "category": "Sauces & Condiments"
           },
           {
             "name": "Garlic",
@@ -1018,7 +919,7 @@
         ]
       },
       "lunch": {
-        "name": "Chicken Savoury Mince + Brown Rice (from batch) \u2014 Light",
+        "name": "Chicken Savoury Mince + Brown Rice (from batch) — Light",
         "jason": {
           "calories": 505,
           "protein": 46,
@@ -1031,7 +932,7 @@
           "carbs": 32,
           "fat": 10
         },
-        "notes": "Light lunch \u2014 save room for date night dinner!",
+        "notes": "Eat before 2pm — leaving for Bright at 2pm! 🚗",
         "ingredients": [
           {
             "name": "Chicken savoury mince (batch)",
@@ -1042,54 +943,24 @@
             "name": "Brown rice",
             "amount": "180g cooked (100g J, 80g P)",
             "category": "Pantry"
-          },
-          {
-            "name": "Onion",
-            "amount": "1 (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Garlic",
-            "amount": "2 cloves (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Carrot",
-            "amount": "1 (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Celery",
-            "amount": "2 stalks (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Chicken stock",
-            "amount": "1 cup (in batch)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Mixed herbs",
-            "amount": "1 tsp (in batch)",
-            "category": "Pantry"
           }
         ]
       },
       "dinner": {
-        "name": "Date Night \u2014 Indian Restaurant \ud83c\udf5b",
+        "name": "Dinner OUT — In Bright 🏔️",
         "jason": {
-          "calories": 1750,
-          "protein": 84,
-          "carbs": 120,
-          "fat": 60
+          "calories": 900,
+          "protein": 55,
+          "carbs": 70,
+          "fat": 35
         },
         "penny": {
-          "calories": 1200,
-          "protein": 65,
-          "carbs": 80,
-          "fat": 40
+          "calories": 700,
+          "protein": 40,
+          "carbs": 55,
+          "fat": 28
         },
-        "notes": "Chicken Tikka starter, Bhindi Masala (okra), Dahl, Garlic Naan, Rice + 1 beer + 1 wine each. Jason: easy Zwift spin in the morning first!",
+        "notes": "Arrive Bright ~5:30pm. Dinner out together — Jason starts riding Good Friday (Apr 3). Penny returns home Sun 5 Apr by train. Jason stays until Mon 13 Apr.",
         "ingredients": []
       },
       "snacks": {
@@ -1109,19 +980,19 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 2827,
-        "protein": 184,
-        "carbs": 202,
-        "fat": 92
+        "calories": 1977,
+        "protein": 155,
+        "carbs": 152,
+        "fat": 67
       },
       "pennyTotal": {
-        "calories": 1975,
-        "protein": 136,
-        "carbs": 157,
-        "fat": 57
+        "calories": 1475,
+        "protein": 111,
+        "carbs": 132,
+        "fat": 45
       },
-      "isDateNight": true,
-      "dateNightNote": "Indian restaurant \u2014 Chicken Tikka, Bhindi Masala, Dahl, Garlic Naan & rice"
+      "isDateNight": false,
+      "dateNightNote": "Road trip to Bright! 🚗🏔️ Leave 2pm, arrive ~5:30pm. Dinner out in Bright together."
     },
     {
       "day": "Friday",
@@ -1143,7 +1014,7 @@
         "ingredients": [
           {
             "name": "Banana",
-            "amount": "3 (2 J, 1 P)",
+            "amount": "2 (J)",
             "category": "Produce"
           },
           {
@@ -1158,124 +1029,44 @@
           },
           {
             "name": "Greek yogurt (Chobani)",
-            "amount": "350g",
+            "amount": "100g (J)",
             "category": "Dairy & Eggs"
-          },
-          {
-            "name": "Rolled oats",
-            "amount": "60g (Penny)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Chia seeds",
-            "amount": "1 tbsp (Penny)",
-            "category": "Pantry"
           }
         ]
       },
       "lunch": {
-        "name": "Chicken Savoury Mince + Brown Rice (from batch)",
+        "name": "In Bright — meals as available",
         "jason": {
-          "calories": 505,
-          "protein": 46,
-          "carbs": 40,
-          "fat": 12
+          "calories": 700,
+          "protein": 50,
+          "carbs": 55,
+          "fat": 25
         },
         "penny": {
-          "calories": 395,
-          "protein": 36,
-          "carbs": 32,
-          "fat": 10
+          "calories": 550,
+          "protein": 35,
+          "carbs": 45,
+          "fat": 20
         },
-        "ingredients": [
-          {
-            "name": "Chicken savoury mince (batch)",
-            "amount": "450g total (250g J, 200g P)",
-            "category": "Meat & Seafood"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "180g cooked (100g J, 80g P)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Onion",
-            "amount": "1 (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Garlic",
-            "amount": "2 cloves (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Carrot",
-            "amount": "1 (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Celery",
-            "amount": "2 stalks (in batch)",
-            "category": "Produce"
-          },
-          {
-            "name": "Chicken stock",
-            "amount": "1 cup (in batch)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Mixed herbs",
-            "amount": "1 tsp (in batch)",
-            "category": "Pantry"
-          }
-        ]
+        "notes": "Good Friday — Jason first full riding day. Both in Bright. Eat well for the rides ahead!",
+        "ingredients": []
       },
       "dinner": {
-        "name": "Red Curry Chicken + Mushrooms + Brown Rice",
+        "name": "Dinner in Bright 🏔️",
         "jason": {
-          "calories": 720,
-          "protein": 55,
-          "carbs": 58,
-          "fat": 28
+          "calories": 900,
+          "protein": 60,
+          "carbs": 75,
+          "fat": 35
         },
         "penny": {
-          "calories": 480,
-          "protein": 38,
-          "carbs": 42,
-          "fat": 18
+          "calories": 700,
+          "protein": 40,
+          "carbs": 55,
+          "fat": 28
         },
-        "ingredients": [
-          {
-            "name": "Chicken thighs (boneless, skinless)",
-            "amount": "330g (200g J, 130g P)",
-            "category": "Meat & Seafood"
-          },
-          {
-            "name": "Red curry paste",
-            "amount": "2 tbsp",
-            "category": "Pantry"
-          },
-          {
-            "name": "Coconut milk",
-            "amount": "400ml (1 can)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Mushrooms",
-            "amount": "150g",
-            "category": "Produce"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "250g (150g J, 100g P)",
-            "category": "Pantry"
-          },
-          {
-            "name": "Garlic",
-            "amount": "2 cloves",
-            "category": "Produce"
-          }
-        ]
+        "notes": "Both in Bright. Penny returns home Sunday 5 Apr by train.",
+        "ingredients": []
       },
       "snacks": {
         "name": "None planned",
@@ -1294,16 +1085,16 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 1797,
-        "protein": 155,
-        "carbs": 140,
-        "fat": 60
+        "calories": 2172,
+        "protein": 164,
+        "carbs": 172,
+        "fat": 80
       },
       "pennyTotal": {
-        "calories": 1255,
-        "protein": 109,
-        "carbs": 119,
-        "fat": 35
+        "calories": 1630,
+        "protein": 110,
+        "carbs": 145,
+        "fat": 55
       }
     }
   ]
