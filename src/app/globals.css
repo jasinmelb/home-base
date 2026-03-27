@@ -128,3 +128,15 @@
     @apply font-sans;
   }
 }
+
+/* Safe area for iOS PWA */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Smooth touch interactions */
+@media (hover: none) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

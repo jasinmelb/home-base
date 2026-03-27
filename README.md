@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Home Base
+
+Family dashboard PWA for Jason and Penny Potter. Mobile-first, offline-capable.
+
+## Features
+
+- **Weekly Meal Plan** — View breakfast, lunch, dinner, and snacks for each day. Shows per-person calories and macros (Jason and Penny have different targets). Expandable cards show ingredients and nutritional breakdown.
+- **Shopping List** — Auto-generated from the meal plan. Grouped by category (Produce, Meat, Dairy, etc.). Tap to check off items as you shop. Works offline via service worker.
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- Tailwind CSS + shadcn/ui
+- PWA with service worker for offline support
+- localStorage for shopping list state
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) — redirects to the Meal Plan.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Meal Plan Data
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Meal plans live in `src/data/`. Currently `week-16.ts` is loaded. Tubby (AI nutritionist) generates these weekly.
 
-## Learn More
+### Calorie Targets
 
-To learn more about Next.js, take a look at the following resources:
+| Person | Calories | Protein |
+|--------|----------|---------|
+| Jason  | 1,900–2,000 | 150g+ |
+| Penny  | 1,400–1,500 | 100–120g |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── layout.tsx          # Root layout with header + bottom nav
+│   ├── page.tsx            # Redirects to /meal-plan
+│   ├── meal-plan/page.tsx  # Weekly meal plan view
+│   └── shopping-list/page.tsx # Shopping list with checkboxes
+├── components/
+│   ├── bottom-nav.tsx      # Mobile bottom tab bar
+│   ├── header.tsx          # App header with week indicator
+│   ├── day-card.tsx        # Expandable day card for meal plan
+│   ├── meal-row.tsx        # Individual meal with macro breakdown
+│   └── sw-register.tsx     # Service worker registration
+├── data/
+│   └── week-16.ts          # Week 16 meal plan data
+├── lib/
+│   ├── shopping.ts         # Shopping list generation + localStorage
+│   └── utils.ts            # shadcn utilities
+└── types/
+    └── meal-plan.ts        # TypeScript types
+```
 
-## Deploy on Vercel
+## Adding a New Week
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Create a new file in `src/data/` following the `WeekPlan` type from `src/types/meal-plan.ts`, then import it in the page components.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## PWA / Offline
+
+The app registers a service worker (`public/sw.js`) that caches pages and assets. The shopping list uses localStorage, so checked items persist even without connectivity — critical for Penny at the markets.
