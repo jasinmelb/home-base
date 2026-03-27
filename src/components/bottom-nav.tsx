@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 const tabs = [
   { href: "/meal-plan", label: "Meal Plan", icon: "🍽️" },
   { href: "/shopping-list", label: "Shopping", icon: "🛒" },
+  { href: "/recipes", label: "Recipes", icon: "📖" },
 ];
 
 export function BottomNav() {

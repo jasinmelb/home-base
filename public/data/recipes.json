@@ -1,0 +1,292 @@
+{
+  "recipes": [
+    {
+      "slug": "jason-breakfast-smoothie",
+      "name": "Jason's Breakfast Smoothie",
+      "category": "Breakfast",
+      "emoji": "🥤",
+      "prepTime": "5 min",
+      "ingredients": [
+        { "name": "Protein powder (Raw Protein Isolate)", "amount": "30g (1 scoop)" },
+        { "name": "Full cream milk", "amount": "375ml" },
+        { "name": "Greek yogurt", "amount": "200g" },
+        { "name": "Banana", "amount": "1 medium" }
+      ],
+      "jason": { "calories": 542, "protein": 55.7, "carbs": 42, "fat": 18, "portion": "Full recipe" },
+      "penny": { "calories": 400, "protein": 42, "carbs": 32, "fat": 13, "portion": "3/4 recipe" },
+      "method": [
+        "Add all ingredients to blender",
+        "Blend until smooth",
+        "Pour and drink"
+      ],
+      "notes": "Must finish by 8:15am (shower constraint). 15-20 min prep max. High-protein focus to hit daily 150g+ target."
+    },
+    {
+      "slug": "penny-overnight-oats",
+      "name": "Penny's Overnight Oats",
+      "category": "Breakfast",
+      "emoji": "🫙",
+      "prepTime": "5 min + overnight",
+      "ingredients": [
+        { "name": "Rolled oats", "amount": "50g" },
+        { "name": "Milk", "amount": "100ml" },
+        { "name": "Greek yogurt", "amount": "50g" },
+        { "name": "Baked strawberries", "amount": "~50g (from weekly batch)" }
+      ],
+      "jason": { "calories": 0, "protein": 0, "carbs": 0, "fat": 0, "portion": "N/A — Penny only" },
+      "penny": { "calories": 340, "protein": 16, "carbs": 48, "fat": 8, "portion": "Full recipe" },
+      "method": [
+        "Mix oats, milk, and Greek yogurt in a container/jar",
+        "Stir well to combine",
+        "Cover and refrigerate overnight",
+        "In the morning: top with baked strawberries (grab from fridge)",
+        "Eat straight from the fridge — no heating needed!"
+      ],
+      "notes": "Weekly prep: bake strawberries 400g at 180°C for 20-25 mins (makes ~5 servings). Perfect for Penny's 7:00am grab-and-go breakfast. Can leave home by 7:15am."
+    },
+    {
+      "slug": "ham-cheese-tomato-toastie",
+      "name": "Ham, Cheese & Tomato Toastie",
+      "category": "Lunch",
+      "emoji": "🥪",
+      "prepTime": "10 min",
+      "ingredients": [
+        { "name": "White or wholegrain bread", "amount": "2 slices" },
+        { "name": "Leg ham (sliced)", "amount": "60-80g" },
+        { "name": "Cheese (cheddar or tasty)", "amount": "25-40g" },
+        { "name": "Fresh tomato", "amount": "1 small (sliced)" },
+        { "name": "Butter", "amount": "for toasting" }
+      ],
+      "jason": { "calories": 540, "protein": 28, "carbs": 38, "fat": 30, "portion": "80g ham, 40g cheese" },
+      "penny": { "calories": 400, "protein": 22, "carbs": 35, "fat": 22, "portion": "60g ham, 25g cheese" },
+      "method": [
+        "Butter outside of bread slices",
+        "Layer inside: ham, cheese, tomato slices",
+        "Heat sandwich press or pan over medium heat",
+        "Toast until bread is golden and cheese is melted (3-4 mins in press, 2-3 mins per side in pan)",
+        "Cut diagonally and serve"
+      ],
+      "notes": "Quick lunch option. Protein a bit lower than usual lunch targets — pairs well with a latte to boost protein. Can add side salad for extra vegetables."
+    },
+    {
+      "slug": "penny-lunch-protein-shake",
+      "name": "Penny's Lunch Protein Shake",
+      "category": "Lunch",
+      "emoji": "🥛",
+      "prepTime": "5 min",
+      "ingredients": [
+        { "name": "Protein powder", "amount": "1 scoop (30g)" },
+        { "name": "Milk", "amount": "250-300ml" },
+        { "name": "Greek yogurt", "amount": "100g" },
+        { "name": "Banana", "amount": "1 medium" },
+        { "name": "Peanut butter (optional)", "amount": "1 tbsp" }
+      ],
+      "jason": { "calories": 0, "protein": 0, "carbs": 0, "fat": 0, "portion": "N/A — Penny only" },
+      "penny": { "calories": 450, "protein": 45, "carbs": 40, "fat": 12, "portion": "Full recipe (classic banana PB)" },
+      "method": [
+        "Add all ingredients to blender",
+        "Blend until smooth",
+        "Pour into bottle or glass",
+        "Drink immediately or store in fridge (consume within 24 hours)"
+      ],
+      "notes": "Variations: Classic Banana PB (~450 kcal, 45g P), Green Smoothie with spinach (~360 kcal, 33g P), Berry Blast with mixed berries (~370 kcal, 35g P). Can prep smoothie packs in freezer bags."
+    },
+    {
+      "slug": "beef-mince-bolognese",
+      "name": "Beef Mince Bolognese",
+      "category": "Dinner",
+      "emoji": "🍝",
+      "prepTime": "1 hour",
+      "ingredients": [
+        { "name": "Lean beef mince (10% fat)", "amount": "1kg" },
+        { "name": "Carrots", "amount": "200g (diced)" },
+        { "name": "Onion", "amount": "165g (diced)" },
+        { "name": "Garlic", "amount": "4-6 cloves (minced)" },
+        { "name": "Canned tomatoes", "amount": "1 × 400g can" },
+        { "name": "Tomato paste", "amount": "4 tbsp (~70g)" },
+        { "name": "Worcestershire sauce", "amount": "2 tbsp" },
+        { "name": "Bay leaves", "amount": "2" },
+        { "name": "Oregano", "amount": "1 tsp" },
+        { "name": "Thyme", "amount": "1 tsp" },
+        { "name": "Cooking oil", "amount": "1 tbsp" },
+        { "name": "Salt and pepper", "amount": "to taste" }
+      ],
+      "jason": { "calories": 580, "protein": 42, "carbs": 48, "fat": 22, "portion": "300-330g mince + 130-150g brown rice" },
+      "penny": { "calories": 390, "protein": 28, "carbs": 36, "fat": 15, "portion": "200g mince + 100g brown rice" },
+      "method": [
+        "Heat oil in large pot, brown beef mince in batches",
+        "Set browned mince aside",
+        "In same pot, sauté diced onions, carrots until soft (8-10 mins)",
+        "Add garlic, cook 1 minute",
+        "Return mince to pot",
+        "Add canned tomatoes, tomato paste, Worcestershire sauce, herbs",
+        "Optional: add beef stock if you want more sauce",
+        "Simmer 30-45 minutes until thick and rich, stirring occasionally",
+        "Season with salt and pepper to taste",
+        "Cool completely before portioning"
+      ],
+      "notes": "Makes 6-7 Jason serves OR 8-10 Penny serves. Freezes well — keeps 2 days in fridge, 3 months in freezer. Serve with brown rice. Classic comfort food."
+    },
+    {
+      "slug": "beef-strips-stir-fry",
+      "name": "Beef Strips Stir Fry",
+      "category": "Dinner",
+      "emoji": "🥘",
+      "prepTime": "25 min",
+      "ingredients": [
+        { "name": "Lean beef strips", "amount": "300-400g total" },
+        { "name": "Capsicum/bell peppers (mixed)", "amount": "370g (sliced)" },
+        { "name": "Mushrooms", "amount": "285g (sliced)" },
+        { "name": "Onion", "amount": "1 medium (~150g, sliced)" },
+        { "name": "Spinach", "amount": "100g" },
+        { "name": "Garlic", "amount": "4-6 cloves (minced)" },
+        { "name": "Soy sauce", "amount": "2-3 tbsp" },
+        { "name": "Oyster sauce (optional)", "amount": "1 tbsp" },
+        { "name": "Sesame oil", "amount": "1 tsp" },
+        { "name": "Cooking oil", "amount": "1 tbsp" },
+        { "name": "Ginger paste", "amount": "1 tsp (from fridge)" }
+      ],
+      "jason": { "calories": 628, "protein": 45, "carbs": 52, "fat": 20, "portion": "180g beef, ~475g veg, 75-200g brown rice" },
+      "penny": { "calories": 422, "protein": 29, "carbs": 38, "fat": 14, "portion": "120g beef, ~315g veg, 50-120g brown rice" },
+      "method": [
+        "Slice all vegetables, mince garlic",
+        "Heat wok/large pan on high heat with oil",
+        "Cook beef in batches (don't overcrowd!) for 2-3 mins until seared — set aside",
+        "Add onion first, cook 2 mins",
+        "Add capsicum and mushrooms, cook 4-5 mins",
+        "Add garlic, cook 1 min",
+        "Add spinach last, just until wilted",
+        "Return beef to pan",
+        "Add soy sauce, oyster sauce (if using), sesame oil",
+        "Toss everything together for 1-2 mins",
+        "Serve over brown rice or on its own"
+      ],
+      "notes": "Quick weeknight dinner: 20-25 minutes total. High heat is key — don't overcrowd the pan. Divide stir-fry 60/40 for Jason/Penny portions. Total cooked stir-fry: ~790g (before rice)."
+    },
+    {
+      "slug": "chicken-savoury-mince",
+      "name": "Chicken Savoury Mince",
+      "category": "Dinner",
+      "emoji": "🍗",
+      "prepTime": "45 min",
+      "ingredients": [
+        { "name": "Chicken thigh mince", "amount": "3kg" },
+        { "name": "Mushrooms", "amount": "438g (sliced)" },
+        { "name": "Celery", "amount": "300g (diced)" },
+        { "name": "Carrots", "amount": "328g (diced)" },
+        { "name": "Onions", "amount": "429g (diced)" },
+        { "name": "Spinach", "amount": "100g" },
+        { "name": "Garlic", "amount": "6-8 cloves (minced)" },
+        { "name": "Soy sauce", "amount": "to taste (season generously)" },
+        { "name": "Sesame oil", "amount": "2-3 tbsp" },
+        { "name": "Chicken stock", "amount": "4 cups (for cooking rice)" }
+      ],
+      "jason": { "calories": 612, "protein": 52, "carbs": 44, "fat": 22, "portion": "280-350g mince + 150-200g brown rice" },
+      "penny": { "calories": 452, "protein": 33, "carbs": 32, "fat": 16, "portion": "185-250g mince + 100-120g brown rice" },
+      "method": [
+        "Brown 3kg chicken mince in batches in a large pot/wok",
+        "Set browned mince aside",
+        "In the same pot, sauté diced onions, carrots, celery, mushrooms, garlic until soft (about 10 mins)",
+        "Return mince to pot",
+        "Add soy sauce (season generously to taste)",
+        "Add sesame oil",
+        "Cook until vegetables are soft and mince is fully cooked through (15-20 mins)",
+        "Add spinach at the end, stir until just wilted",
+        "Cook brown rice in chicken stock instead of water (ratio: ~3 cups stock to 1 cup rice)",
+        "Cool completely before portioning"
+      ],
+      "notes": "This is a DRY mince — not gravy-based. Asian-style flavor profile with soy and sesame. No tomatoes, no gravy powder. Makes 8-12 serves. Freeze 7-10 serves. Keeps 2 days in fridge, 3 months in freezer."
+    },
+    {
+      "slug": "chicken-thighs-rice-broccoli",
+      "name": "Chicken Thighs with Rice & Broccoli",
+      "category": "Dinner",
+      "emoji": "🍗",
+      "prepTime": "50 min",
+      "ingredients": [
+        { "name": "Chicken thighs (skin on, bone in)", "amount": "~135g each" },
+        { "name": "Brown rice (dry)", "amount": "as needed" },
+        { "name": "Chicken stock", "amount": "2.5 cups per 1 cup rice" },
+        { "name": "Broccoli florets", "amount": "250g" },
+        { "name": "Salt and pepper", "amount": "to taste" },
+        { "name": "Garlic powder", "amount": "to taste" },
+        { "name": "Herbs (thyme, rosemary)", "amount": "to taste" },
+        { "name": "Olive oil", "amount": "drizzle" }
+      ],
+      "jason": { "calories": 725, "protein": 60, "carbs": 50, "fat": 28, "portion": "2 thighs (~270g) + 150-200g rice + 150g broccoli" },
+      "penny": { "calories": 435, "protein": 34, "carbs": 36, "fat": 16, "portion": "1 thigh (~135g) + 100-120g rice + 100g broccoli" },
+      "method": [
+        "Season thighs with salt, pepper, garlic powder, and herbs",
+        "Heat oven to 200°C",
+        "Roast chicken thighs on a tray for 35-40 minutes until skin is crispy and internal temp reaches 75°C",
+        "Let rest 5 minutes before serving",
+        "Cook brown rice in chicken stock (bring to boil, reduce to simmer, cover 40-45 mins)",
+        "Steam or blanch broccoli for 3-4 minutes until tender-crisp",
+        "Season broccoli with salt, pepper, and a small drizzle of olive oil",
+        "Plate rice, top with chicken thigh(s), add broccoli on the side"
+      ],
+      "notes": "Can batch cook chicken thighs on weekend. Keeps 2 days in fridge. For meal prep: cook 9 thighs (6 for Jason, 3 for Penny across 3 meals). Optional: add purchased dahl for extra flavor."
+    },
+    {
+      "slug": "lemon-herb-salmon",
+      "name": "Lemon Herb Salmon with Asparagus",
+      "category": "Dinner",
+      "emoji": "🐟",
+      "prepTime": "30 min",
+      "ingredients": [
+        { "name": "Salmon fillets (skin on)", "amount": "350g total" },
+        { "name": "Asparagus spears", "amount": "14 spears" },
+        { "name": "Cherry tomatoes", "amount": "18" },
+        { "name": "Parmesan cheese (grated)", "amount": "to taste" },
+        { "name": "Lemon (juice and zest)", "amount": "1" },
+        { "name": "Garlic (minced)", "amount": "2 cloves" },
+        { "name": "Fresh herbs (dill, parsley, or thyme)", "amount": "to taste" },
+        { "name": "Olive oil", "amount": "1-2 tbsp" },
+        { "name": "Cottage cheese", "amount": "350g" },
+        { "name": "Salt and pepper", "amount": "to taste" }
+      ],
+      "jason": { "calories": 750, "protein": 55, "carbs": 12, "fat": 52, "portion": "200g salmon, 8 asparagus, 10 tomatoes, 200g cottage cheese" },
+      "penny": { "calories": 550, "protein": 42, "carbs": 10, "fat": 38, "portion": "150g salmon, 6 asparagus, 8 tomatoes, 150g cottage cheese" },
+      "method": [
+        "Season salmon fillets with lemon juice, lemon zest, minced garlic, herbs, salt, and pepper",
+        "Let marinate for 10-15 minutes (optional)",
+        "Heat pan with olive oil over medium-high heat",
+        "Pan-fry salmon 4 minutes each side (skin side down first for crispy skin)",
+        "While salmon cooks, blanch or steam asparagus until tender-crisp (3-4 mins)",
+        "Cut cherry tomatoes in half",
+        "Plate: salmon, asparagus, cherry tomatoes, cottage cheese on the side",
+        "Grate fresh Parmesan over the top",
+        "Season with salt and pepper to taste"
+      ],
+      "notes": "Monday dinner staple (after Pilates). Quick prep: 30 minutes total. Salmon should be cooked medium (slightly pink in center). Alternative: bake everything on one tray at 200°C for 15-20 mins."
+    },
+    {
+      "slug": "prawns-with-salad",
+      "name": "Prawns with Salad",
+      "category": "Dinner",
+      "emoji": "🦐",
+      "prepTime": "10 min",
+      "ingredients": [
+        { "name": "Cooked prawns (shelled)", "amount": "1kg (for multiple meals)" },
+        { "name": "Mixed greens or spinach", "amount": "large handful" },
+        { "name": "Cherry tomatoes", "amount": "6-8 (halved)" },
+        { "name": "Cucumber", "amount": "1/2 (diced)" },
+        { "name": "Red onion", "amount": "thinly sliced" },
+        { "name": "Olive oil", "amount": "1-2 tbsp" },
+        { "name": "Lemon juice", "amount": "1 tbsp" },
+        { "name": "Salt and pepper", "amount": "to taste" }
+      ],
+      "jason": { "calories": 390, "protein": 48, "carbs": 8, "fat": 18, "portion": "250g prawns + large salad" },
+      "penny": { "calories": 250, "protein": 32, "carbs": 6, "fat": 12, "portion": "130g prawns + medium salad" },
+      "method": [
+        "If prawns are frozen, thaw in refrigerator overnight",
+        "Prepare salad: wash and chop vegetables",
+        "Make dressing: mix olive oil, lemon juice, salt, pepper",
+        "Assemble: place salad on plate, top with prawns",
+        "Drizzle with dressing",
+        "Serve immediately"
+      ],
+      "notes": "Very low calorie, high protein option. No cooking required if using pre-cooked prawns. 1kg prawns = ~4 Jason servings OR 7-8 Penny servings. Light option — may need additional snacks to hit calorie targets. Can add avocado for healthy fats."
+    }
+  ]
+}
