@@ -10,8 +10,9 @@ export function generateShoppingList(plan: WeekPlan): ShoppingItem[] {
   const map = new Map<string, AggregatedItem>();
 
   for (const day of plan.days) {
-    const meals = [day.breakfast, day.lunch, day.dinner, day.snacks];
+    const meals = [day.breakfast, day.lunch, day.dinner, day.snacks].filter(Boolean);
     for (const meal of meals) {
+      if (!meal || !meal.ingredients) continue;
       for (const ing of meal.ingredients) {
         const key = ing.name.toLowerCase();
         const existing = map.get(key);

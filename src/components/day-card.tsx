@@ -62,7 +62,9 @@ export function DayCard({ day, isExpanded, onToggle }: DayCardProps) {
           <MealRow label="Breakfast" meal={day.breakfast} />
           <MealRow label="Lunch" meal={day.lunch} />
           <MealRow label="Dinner" meal={day.dinner} />
-          <MealRow label="Snacks" meal={day.snacks} />
+          {day.snacks && day.snacks.name !== "None planned" && (
+            <MealRow label="Snacks" meal={day.snacks} />
+          )}
 
           {day.dateNightNote && (
             <div className="mt-3 rounded-xl bg-gradient-to-r from-pink-50 to-rose-50 px-4 py-3 text-xs text-rose-700 border border-rose-100">

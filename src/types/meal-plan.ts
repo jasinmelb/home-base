@@ -25,7 +25,7 @@ export interface DayPlan {
   breakfast: Meal;
   lunch: Meal;
   dinner: Meal;
-  snacks: Meal;
+  snacks?: Meal | null;
   jasonTotal: Macros;
   pennyTotal: Macros;
   isDateNight?: boolean;
