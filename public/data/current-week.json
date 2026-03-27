@@ -3,7 +3,7 @@
     "week": 17,
     "startDate": "2026-03-28",
     "generatedBy": "tubby",
-    "generatedAt": "2026-03-27T06:52:55.560Z"
+    "generatedAt": "2026-03-27T07:08:22.579Z"
   },
   "week": 17,
   "year": 2026,
@@ -79,18 +79,8 @@
           "carbs": 32,
           "fat": 10
         },
-        "ingredients": [
-          {
-            "name": "Chicken savoury mince (frozen)",
-            "amount": "450g total (250g J, 200g P)",
-            "category": "Frozen"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "180g cooked (100g J, 80g P)",
-            "category": "Pantry"
-          }
-        ]
+        "ingredients": [],
+        "notes": "From freezer — no shopping needed"
       },
       "dinner": {
         "name": "Dinner OUT — Werribee Mansion 🏰",
@@ -210,7 +200,7 @@
         "ingredients": [
           {
             "name": "Chicken thighs (boneless, skinless)",
-            "amount": "330g (200g J, 130g P)",
+            "amount": "660g total (6 thighs — 3 for Sun lunch, 3 for Tue dinner)",
             "category": "Meat & Seafood"
           },
           {
@@ -388,12 +378,7 @@
             "category": "Produce"
           },
           {
-            "name": "Salmon fillet (Penny)",
-            "amount": "100g",
-            "category": "Meat & Seafood"
-          },
-          {
-            "name": "Brown rice (Penny)",
+            "name": "Brown rice",
             "amount": "80g cooked",
             "category": "Pantry"
           },
@@ -421,7 +406,7 @@
         "ingredients": [
           {
             "name": "Salmon fillets",
-            "amount": "350g (200g J, 150g P)",
+            "amount": "550g total (200g J dinner, 150g P dinner, 100g P Mon lunch, 100g P Tue lunch)",
             "category": "Meat & Seafood"
           },
           {
@@ -587,12 +572,7 @@
             "category": "Produce"
           },
           {
-            "name": "Salmon fillet (Penny)",
-            "amount": "100g",
-            "category": "Meat & Seafood"
-          },
-          {
-            "name": "Brown rice (Penny)",
+            "name": "Brown rice",
             "amount": "80g cooked",
             "category": "Pantry"
           },
@@ -618,11 +598,6 @@
           "fat": 18
         },
         "ingredients": [
-          {
-            "name": "Chicken thighs (boneless, skinless)",
-            "amount": "330g (200g J, 130g P)",
-            "category": "Meat & Seafood"
-          },
           {
             "name": "Red curry paste",
             "amount": "2 tbsp",
@@ -781,7 +756,7 @@
             "category": "Meat & Seafood"
           },
           {
-            "name": "Brown rice (Penny)",
+            "name": "Brown rice",
             "amount": "80g cooked",
             "category": "Pantry"
           },
@@ -807,11 +782,6 @@
           "fat": 10
         },
         "ingredients": [
-          {
-            "name": "Beef strips (from freezer)",
-            "amount": "330g (200g J, 130g P)",
-            "category": "Frozen"
-          },
           {
             "name": "Capsicum / bell peppers",
             "amount": "250g",
@@ -985,7 +955,7 @@
             "category": "Meat & Seafood"
           },
           {
-            "name": "Brown rice (Penny)",
+            "name": "Brown rice",
             "amount": "80g cooked",
             "category": "Pantry"
           },
