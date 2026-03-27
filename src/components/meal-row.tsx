@@ -17,18 +17,29 @@ const mealIcons: Record<string, string> = {
   Snacks: "🍎",
 };
 
+const mealColors: Record<string, { bg: string; accent: string; text: string }> = {
+  Breakfast: { bg: "bg-meal-breakfast/60", accent: "bg-meal-breakfast-accent", text: "text-amber-700" },
+  Lunch: { bg: "bg-meal-lunch/60", accent: "bg-meal-lunch-accent", text: "text-green-700" },
+  Dinner: { bg: "bg-meal-dinner/60", accent: "bg-meal-dinner-accent", text: "text-purple-700" },
+  Snacks: { bg: "bg-meal-snacks/60", accent: "bg-meal-snacks-accent", text: "text-pink-700" },
+};
+
 export function MealRow({ label, meal }: MealRowProps) {
   const [open, setOpen] = useState(false);
+  const colors = mealColors[label] || mealColors.Snacks;
 
   return (
-    <div className="rounded-lg">
+    <div className="rounded-xl overflow-hidden">
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center gap-2 rounded-lg px-2 py-2 text-left transition-colors hover:bg-secondary/50"
+        className={cn(
+          "flex w-full items-center gap-2.5 rounded-xl px-3 py-2.5 text-left transition-all",
+          open ? colors.bg : "hover:bg-secondary/50"
+        )}
       >
-        <span className="text-sm">{mealIcons[label]}</span>
+        <span className="text-base">{mealIcons[label]}</span>
         <div className="min-w-0 flex-1">
-          <div className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
+          <div className={cn("text-[10px] font-semibold uppercase tracking-wider", colors.text)}>
             {label}
           </div>
           <div className="truncate text-sm font-medium">{meal.name}</div>
@@ -40,7 +51,7 @@ export function MealRow({ label, meal }: MealRowProps) {
         {meal.ingredients.length > 0 && (
           <ChevronRight
             className={cn(
-              "h-3.5 w-3.5 shrink-0 text-muted-foreground transition-transform",
+              "h-3.5 w-3.5 shrink-0 text-muted-foreground transition-transform duration-200",
               open && "rotate-90"
             )}
           />
@@ -48,15 +59,15 @@ export function MealRow({ label, meal }: MealRowProps) {
       </button>
 
       {open && meal.ingredients.length > 0 && (
-        <div className="ml-8 mr-2 mb-2 space-y-1">
+        <div className={cn("mx-3 mb-2 mt-1 rounded-lg p-3 space-y-1.5", colors.bg)}>
           <div className="grid grid-cols-2 gap-x-4 gap-y-0.5 text-[11px] text-muted-foreground">
             <div className="font-medium text-foreground/80">
-              Jason: {meal.jason.calories} cal &middot; {meal.jason.protein}g P &middot;{" "}
-              {meal.jason.carbs}g C &middot; {meal.jason.fat}g F
+              Jason: {meal.jason.calories} cal · {meal.jason.protein}g P ·{" "}
+              {meal.jason.carbs}g C · {meal.jason.fat}g F
             </div>
             <div className="font-medium text-foreground/80">
-              Penny: {meal.penny.calories} cal &middot; {meal.penny.protein}g P &middot;{" "}
-              {meal.penny.carbs}g C &middot; {meal.penny.fat}g F
+              Penny: {meal.penny.calories} cal · {meal.penny.protein}g P ·{" "}
+              {meal.penny.carbs}g C · {meal.penny.fat}g F
             </div>
           </div>
           {meal.notes && (

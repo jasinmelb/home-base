@@ -13,7 +13,7 @@ export function BottomNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-border bg-background/80 backdrop-blur-lg safe-area-bottom">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-border/50 bg-background/90 backdrop-blur-lg safe-area-bottom">
       <div className="mx-auto flex max-w-lg">
         {tabs.map((tab) => {
           const isActive =
@@ -23,16 +23,21 @@ export function BottomNav() {
               key={tab.href}
               href={tab.href}
               className={cn(
-                "flex flex-1 flex-col items-center gap-0.5 py-2 pt-2.5 text-xs font-medium transition-colors",
+                "relative flex flex-1 flex-col items-center gap-0.5 py-2 pt-2.5 text-xs font-medium transition-colors",
                 isActive
-                  ? "text-foreground"
+                  ? "text-brand-dark font-semibold"
                   : "text-muted-foreground hover:text-foreground"
               )}
             >
-              <span className="text-xl leading-none">{tab.icon}</span>
+              <span className={cn(
+                "flex items-center justify-center rounded-full text-xl leading-none transition-all",
+                isActive && "h-8 w-8 bg-brand/15 scale-110"
+              )}>
+                {tab.icon}
+              </span>
               <span>{tab.label}</span>
               {isActive && (
-                <span className="absolute top-0 h-0.5 w-12 rounded-full bg-foreground" />
+                <span className="absolute top-0 h-[3px] w-12 rounded-full bg-gradient-to-r from-brand to-brand-light" />
               )}
             </Link>
           );

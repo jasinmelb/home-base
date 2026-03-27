@@ -17,22 +17,32 @@ function getPageTitle(pathname: string): string {
   return "Home Base";
 }
 
+function getPageEmoji(pathname: string): string {
+  if (pathname.startsWith("/shopping-list")) return "🛒";
+  if (pathname.startsWith("/meal-plan")) return "🍽️";
+  return "🏠";
+}
+
 export function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur-lg">
+    <header className="sticky top-0 z-40 bg-gradient-to-r from-brand/10 via-warm-orange/5 to-coral/5 backdrop-blur-lg">
       <div className="mx-auto flex max-w-lg items-center justify-between px-4 py-3">
-        <div>
-          <h1 className="text-lg font-bold tracking-tight">
-            {getPageTitle(pathname)}
-          </h1>
-          <p className="text-xs text-muted-foreground">Home Base</p>
+        <div className="flex items-center gap-2.5">
+          <span className="text-xl">{getPageEmoji(pathname)}</span>
+          <div>
+            <h1 className="text-lg font-bold tracking-tight">
+              {getPageTitle(pathname)}
+            </h1>
+            <p className="text-[11px] font-medium text-muted-foreground">Home Base</p>
+          </div>
         </div>
-        <div className="rounded-full bg-secondary px-3 py-1 text-xs font-medium text-secondary-foreground">
+        <div className="rounded-full bg-brand/15 px-3 py-1 text-xs font-semibold text-brand-dark">
           {getWeekLabel()}
         </div>
       </div>
+      <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
     </header>
   );
 }

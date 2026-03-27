@@ -1,17 +1,18 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Nunito, Inter } from "next/font/google";
 import { Header } from "@/components/header";
 import { BottomNav } from "@/components/bottom-nav";
 import { ServiceWorkerRegister } from "@/components/sw-register";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const nunito = Nunito({
+  variable: "--font-nunito",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -31,7 +32,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: "#ffffff",
+  themeColor: "#FFF9F5",
 };
 
 export default function RootLayout({
@@ -42,7 +43,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${nunito.variable} ${inter.variable} h-full antialiased`}
     >
       <head>
         <link rel="apple-touch-icon" href="/icons/icon-192.svg" />

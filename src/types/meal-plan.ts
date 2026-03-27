@@ -32,7 +32,15 @@ export interface DayPlan {
   dateNightNote?: string;
 }
 
+export interface WeekPlanMetadata {
+  week: number;
+  startDate: string;
+  generatedBy: string;
+  generatedAt: string;
+}
+
 export interface WeekPlan {
+  metadata: WeekPlanMetadata;
   week: number;
   year: number;
   startDate: string;

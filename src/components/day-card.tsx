@@ -20,8 +20,8 @@ export function DayCard({ day, isExpanded, onToggle }: DayCardProps) {
   return (
     <Card
       className={cn(
-        "overflow-hidden transition-all",
-        isToday && "ring-2 ring-foreground/10"
+        "overflow-hidden transition-all warm-shadow",
+        isToday && "today-glow ring-2 ring-brand/30"
       )}
     >
       <button
@@ -31,42 +31,42 @@ export function DayCard({ day, isExpanded, onToggle }: DayCardProps) {
         <div className="flex items-center gap-2">
           <div>
             <div className="flex items-center gap-2">
-              <span className="font-semibold">{day.day}</span>
+              <span className="font-bold">{day.day}</span>
               {isToday && (
-                <Badge variant="secondary" className="text-[10px] px-1.5 py-0">
+                <Badge className="bg-brand/15 text-brand-dark border-0 text-[10px] px-2 py-0 font-semibold">
                   Today
                 </Badge>
               )}
               {day.isDateNight && (
-                <Badge variant="outline" className="text-[10px] px-1.5 py-0 border-pink-300 text-pink-600">
-                  Date Night
+                <Badge className="bg-gradient-to-r from-pink-100 to-rose-100 text-rose-600 border-0 text-[10px] px-2 py-0 font-semibold date-night-sparkle">
+                  <span className="mr-0.5">💕</span> Date Night
                 </Badge>
               )}
             </div>
-            <div className="mt-0.5 flex gap-3 text-[11px] text-muted-foreground">
-              <span>J: {day.jasonTotal.calories} cal &middot; {day.jasonTotal.protein}g P</span>
-              <span>P: {day.pennyTotal.calories} cal &middot; {day.pennyTotal.protein}g P</span>
+            <div className="mt-1 flex gap-3 text-[11px] text-muted-foreground">
+              <span>J: {day.jasonTotal.calories} cal · {day.jasonTotal.protein}g P</span>
+              <span>P: {day.pennyTotal.calories} cal · {day.pennyTotal.protein}g P</span>
             </div>
           </div>
         </div>
         <ChevronDown
           className={cn(
-            "h-4 w-4 text-muted-foreground transition-transform",
+            "h-4 w-4 text-muted-foreground transition-transform duration-200",
             isExpanded && "rotate-180"
           )}
         />
       </button>
 
       {isExpanded && (
-        <CardContent className="border-t px-4 py-3 space-y-1">
+        <CardContent className="border-t border-border/50 px-4 py-3 space-y-1">
           <MealRow label="Breakfast" meal={day.breakfast} />
           <MealRow label="Lunch" meal={day.lunch} />
           <MealRow label="Dinner" meal={day.dinner} />
           <MealRow label="Snacks" meal={day.snacks} />
 
           {day.dateNightNote && (
-            <div className="mt-3 rounded-lg bg-pink-50 px-3 py-2 text-xs text-pink-700">
-              {day.dateNightNote}
+            <div className="mt-3 rounded-xl bg-gradient-to-r from-pink-50 to-rose-50 px-4 py-3 text-xs text-rose-700 border border-rose-100">
+              <span className="mr-1">💕</span> {day.dateNightNote}
             </div>
           )}
 
@@ -77,6 +77,18 @@ export function DayCard({ day, isExpanded, onToggle }: DayCardProps) {
         </CardContent>
       )}
     </Card>
+  );
+}
+
+function MacroBar({ value, max, color }: { value: number; max: number; color: string }) {
+  const pct = Math.min((value / max) * 100, 100);
+  return (
+    <div className="h-1.5 w-full overflow-hidden rounded-full bg-secondary">
+      <div
+        className={cn("h-full rounded-full transition-all duration-500", color)}
+        style={{ width: `${pct}%` }}
+      />
+    </div>
   );
 }
 
@@ -91,15 +103,16 @@ function DailyTotal({
 }) {
   const inRange = macros.calories >= target.min && macros.calories <= target.max;
   return (
-    <div className="rounded-lg bg-secondary/60 px-3 py-2">
-      <div className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">
+    <div className="rounded-xl bg-gradient-to-br from-secondary/80 to-secondary/40 px-3 py-2.5">
+      <div className="text-[10px] font-semibold text-muted-foreground uppercase tracking-wider">
         {label}
       </div>
-      <div className={cn("text-sm font-bold", inRange ? "text-emerald-600" : "text-amber-600")}>
+      <div className={cn("text-sm font-bold", inRange ? "text-brand-dark" : "text-warm-orange")}>
         {macros.calories} cal
       </div>
-      <div className="text-[11px] text-muted-foreground">
-        {macros.protein}g P &middot; {macros.carbs}g C &middot; {macros.fat}g F
+      <MacroBar value={macros.calories} max={target.max} color={inRange ? "bg-brand" : "bg-warm-orange"} />
+      <div className="mt-1 text-[11px] text-muted-foreground">
+        {macros.protein}g P · {macros.carbs}g C · {macros.fat}g F
       </div>
     </div>
   );
