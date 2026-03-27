@@ -3,7 +3,7 @@
     "week": 17,
     "startDate": "2026-03-28",
     "generatedBy": "tubby",
-    "generatedAt": "2026-03-27T00:00:00.000Z"
+    "generatedAt": "2026-03-27T02:33:00.000Z"
   },
   "week": 17,
   "year": 2026,
@@ -14,311 +14,344 @@
       "day": "Saturday",
       "date": "2026-03-28",
       "breakfast": {
-        "name": "Jason's Breakfast Smoothie V5 / Penny's Overnight Oats",
-        "jason": { "calories": 572, "protein": 54, "carbs": 50, "fat": 17 },
-        "penny": { "calories": 380, "protein": 35, "carbs": 42, "fat": 8 },
+        "name": "Jason's Blended Smoothie / Penny's Overnight Oats + Baked Strawberries",
+        "jason": { "calories": 572, "protein": 54, "carbs": 42, "fat": 20 },
+        "penny": { "calories": 380, "protein": 35, "carbs": 45, "fat": 7 },
         "ingredients": [
-          { "name": "Banana", "amount": "2", "category": "Produce" },
-          { "name": "Frozen mixed berries", "amount": "200g", "category": "Frozen" },
+          { "name": "Banana", "amount": "3 (2 J, 1 P)", "category": "Produce" },
           { "name": "Protein powder (vanilla)", "amount": "2 scoops", "category": "Pantry" },
-          { "name": "Greek yoghurt", "amount": "250g", "category": "Dairy & Eggs" },
-          { "name": "High-protein milk", "amount": "500ml", "category": "Drinks" },
-          { "name": "Rolled oats", "amount": "60g", "category": "Pantry" },
-          { "name": "Chia seeds", "amount": "2 tbsp", "category": "Pantry" },
-          { "name": "Strawberries", "amount": "400g", "category": "Produce" }
+          { "name": "High-protein milk", "amount": "400ml", "category": "Drinks" },
+          { "name": "Greek yogurt (Chobani)", "amount": "350g", "category": "Dairy & Eggs" },
+          { "name": "Rolled oats", "amount": "60g (Penny)", "category": "Pantry" },
+          { "name": "Chia seeds", "amount": "1 tbsp (Penny)", "category": "Pantry" },
+          { "name": "Strawberries / frozen berries", "amount": "400g (bake for Penny)", "category": "Frozen" }
         ]
       },
       "lunch": {
-        "name": "Chicken Savoury Mince + Rice (from freezer)",
-        "jason": { "calories": 505, "protein": 46, "carbs": 42, "fat": 17 },
-        "penny": { "calories": 395, "protein": 36, "carbs": 34, "fat": 13 },
+        "name": "Chicken Savoury Mince + Brown Rice (from freezer)",
+        "jason": { "calories": 505, "protein": 46, "carbs": 40, "fat": 12 },
+        "penny": { "calories": 395, "protein": 36, "carbs": 32, "fat": 10 },
         "ingredients": [
-          { "name": "Chicken savoury mince (from freezer)", "amount": "450g", "category": "Frozen" },
-          { "name": "Brown rice", "amount": "180g", "category": "Pantry" }
+          { "name": "Chicken savoury mince (frozen)", "amount": "450g total (250g J, 200g P)", "category": "Meat & Seafood" },
+          { "name": "Brown rice", "amount": "180g cooked (100g J, 80g P)", "category": "Pantry" },
+          { "name": "Onion", "amount": "1 (in batch)", "category": "Produce" },
+          { "name": "Garlic", "amount": "2 cloves (in batch)", "category": "Produce" },
+          { "name": "Carrot", "amount": "1 (in batch)", "category": "Produce" },
+          { "name": "Celery", "amount": "2 stalks (in batch)", "category": "Produce" },
+          { "name": "Chicken stock", "amount": "1 cup (in batch)", "category": "Pantry" },
+          { "name": "Mixed herbs", "amount": "1 tsp (in batch)", "category": "Pantry" }
         ]
       },
       "dinner": {
         "name": "Fish & Prawn Marinara + Brown Rice",
-        "jason": { "calories": 515, "protein": 55, "carbs": 40, "fat": 15 },
-        "penny": { "calories": 365, "protein": 40, "carbs": 30, "fat": 9 },
+        "jason": { "calories": 515, "protein": 55, "carbs": 40, "fat": 10 },
+        "penny": { "calories": 365, "protein": 40, "carbs": 28, "fat": 7 },
         "ingredients": [
-          { "name": "Prawns (cooked & shelled)", "amount": "400g", "category": "Meat & Seafood" },
-          { "name": "Barramundi fillets", "amount": "100g", "category": "Meat & Seafood" },
-          { "name": "Tomato passata/marinara sauce", "amount": "400g jar", "category": "Sauces & Condiments" },
-          { "name": "Brown rice", "amount": "250g", "category": "Pantry" },
-          { "name": "Garlic", "amount": "3 cloves", "category": "Produce" },
-          { "name": "Fresh basil", "amount": "1 bunch", "category": "Produce" },
-          { "name": "Olive oil", "amount": "1 tbsp", "category": "Pantry" }
+          { "name": "Prawns (cooked & shelled)", "amount": "400g (250g J, 150g P)", "category": "Meat & Seafood" },
+          { "name": "Barramundi fillets", "amount": "100g (60g J, 40g P)", "category": "Meat & Seafood" },
+          { "name": "Tomato passata / marinara sauce", "amount": "400g jar", "category": "Pantry" },
+          { "name": "Brown rice", "amount": "250g (150g J, 100g P)", "category": "Pantry" },
+          { "name": "Garlic", "amount": "2 cloves", "category": "Produce" },
+          { "name": "Fresh basil", "amount": "handful", "category": "Produce" },
+          { "name": "Olive oil", "amount": "1 tbsp", "category": "Pantry" },
+          { "name": "Lemon", "amount": "1/2", "category": "Produce" }
         ]
       },
-      "jasonTotal": { "calories": 1592, "protein": 155, "carbs": 132, "fat": 49 },
-      "pennyTotal": { "calories": 1140, "protein": 111, "carbs": 106, "fat": 30 }
+      "snacks": null,
+      "jasonTotal": { "calories": 1592, "protein": 155, "carbs": 122, "fat": 42 },
+      "pennyTotal": { "calories": 1140, "protein": 111, "carbs": 105, "fat": 24 }
     },
     {
       "day": "Sunday",
       "date": "2026-03-29",
       "breakfast": {
-        "name": "Jason's Breakfast Smoothie V5 / Penny's Overnight Oats",
-        "jason": { "calories": 572, "protein": 54, "carbs": 50, "fat": 17 },
-        "penny": { "calories": 380, "protein": 35, "carbs": 42, "fat": 8 },
+        "name": "Jason's Blended Smoothie / Penny's Overnight Oats + Baked Strawberries",
+        "jason": { "calories": 572, "protein": 54, "carbs": 42, "fat": 20 },
+        "penny": { "calories": 380, "protein": 35, "carbs": 45, "fat": 7 },
         "ingredients": [
-          { "name": "Banana", "amount": "2", "category": "Produce" },
-          { "name": "Frozen mixed berries", "amount": "200g", "category": "Frozen" },
+          { "name": "Banana", "amount": "3 (2 J, 1 P)", "category": "Produce" },
           { "name": "Protein powder (vanilla)", "amount": "2 scoops", "category": "Pantry" },
-          { "name": "Greek yoghurt", "amount": "250g", "category": "Dairy & Eggs" },
-          { "name": "High-protein milk", "amount": "500ml", "category": "Drinks" },
-          { "name": "Rolled oats", "amount": "60g", "category": "Pantry" },
-          { "name": "Chia seeds", "amount": "2 tbsp", "category": "Pantry" }
+          { "name": "High-protein milk", "amount": "400ml", "category": "Drinks" },
+          { "name": "Greek yogurt (Chobani)", "amount": "350g", "category": "Dairy & Eggs" },
+          { "name": "Rolled oats", "amount": "60g (Penny)", "category": "Pantry" },
+          { "name": "Chia seeds", "amount": "1 tbsp (Penny)", "category": "Pantry" },
+          { "name": "Strawberries / frozen berries", "amount": "80g (Penny)", "category": "Frozen" }
         ]
       },
       "lunch": {
         "name": "Chicken Thighs + Salad",
-        "jason": { "calories": 450, "protein": 50, "carbs": 8, "fat": 24 },
-        "penny": { "calories": 300, "protein": 33, "carbs": 5, "fat": 16 },
+        "jason": { "calories": 450, "protein": 50, "carbs": 8, "fat": 22 },
+        "penny": { "calories": 300, "protein": 33, "carbs": 6, "fat": 15 },
+        "notes": "Batch cook day — 3kg chicken mince going on after lunch!",
         "ingredients": [
-          { "name": "Chicken thighs", "amount": "330g", "category": "Meat & Seafood" },
-          { "name": "Rocket or spinach", "amount": "100g", "category": "Produce" },
-          { "name": "Tomato", "amount": "1", "category": "Produce" },
-          { "name": "Cucumber", "amount": "1", "category": "Produce" },
+          { "name": "Chicken thighs (boneless, skinless)", "amount": "330g (200g J, 130g P)", "category": "Meat & Seafood" },
+          { "name": "Rocket / spinach", "amount": "100g", "category": "Produce" },
+          { "name": "Tomatoes", "amount": "150g", "category": "Produce" },
+          { "name": "Cucumber", "amount": "100g", "category": "Produce" },
+          { "name": "Red onion", "amount": "1/4", "category": "Produce" },
           { "name": "Olive oil", "amount": "1 tbsp", "category": "Pantry" },
-          { "name": "Lemon", "amount": "1", "category": "Produce" }
+          { "name": "Lemon", "amount": "1/2", "category": "Produce" }
         ]
       },
       "dinner": {
         "name": "Red Curry Chicken + Mushrooms + Brown Rice",
-        "jason": { "calories": 720, "protein": 55, "carbs": 55, "fat": 31 },
-        "penny": { "calories": 480, "protein": 38, "carbs": 38, "fat": 20 },
+        "jason": { "calories": 720, "protein": 55, "carbs": 58, "fat": 28 },
+        "penny": { "calories": 480, "protein": 38, "carbs": 42, "fat": 18 },
         "ingredients": [
-          { "name": "Chicken thighs", "amount": "330g", "category": "Meat & Seafood" },
-          { "name": "Red curry paste", "amount": "2 tbsp", "category": "Sauces & Condiments" },
-          { "name": "Coconut milk", "amount": "400ml", "category": "Pantry" },
-          { "name": "Mushrooms", "amount": "250g", "category": "Produce" },
-          { "name": "Brown rice", "amount": "250g", "category": "Pantry" }
+          { "name": "Chicken thighs (boneless, skinless)", "amount": "330g (200g J, 130g P)", "category": "Meat & Seafood" },
+          { "name": "Red curry paste", "amount": "2 tbsp", "category": "Pantry" },
+          { "name": "Coconut milk", "amount": "400ml (1 can)", "category": "Pantry" },
+          { "name": "Mushrooms", "amount": "250g (150g J, 100g P)", "category": "Produce" },
+          { "name": "Brown rice", "amount": "250g (150g J, 100g P)", "category": "Pantry" },
+          { "name": "Garlic", "amount": "2 cloves", "category": "Produce" }
         ]
       },
-      "jasonTotal": { "calories": 1742, "protein": 159, "carbs": 113, "fat": 72 },
-      "pennyTotal": { "calories": 1160, "protein": 106, "carbs": 85, "fat": 44 }
+      "snacks": null,
+      "jasonTotal": { "calories": 1742, "protein": 159, "carbs": 108, "fat": 70 },
+      "pennyTotal": { "calories": 1160, "protein": 106, "carbs": 93, "fat": 40 }
     },
     {
       "day": "Monday",
       "date": "2026-03-30",
       "breakfast": {
-        "name": "Jason's Breakfast Smoothie V5 / Penny's Overnight Oats",
-        "jason": { "calories": 572, "protein": 54, "carbs": 50, "fat": 17 },
-        "penny": { "calories": 380, "protein": 35, "carbs": 42, "fat": 8 },
+        "name": "Jason's Blended Smoothie / Penny's Overnight Oats",
+        "jason": { "calories": 572, "protein": 54, "carbs": 42, "fat": 20 },
+        "penny": { "calories": 380, "protein": 35, "carbs": 45, "fat": 7 },
         "ingredients": [
-          { "name": "Banana", "amount": "2", "category": "Produce" },
-          { "name": "Frozen mixed berries", "amount": "200g", "category": "Frozen" },
+          { "name": "Banana", "amount": "3 (2 J, 1 P)", "category": "Produce" },
           { "name": "Protein powder (vanilla)", "amount": "2 scoops", "category": "Pantry" },
-          { "name": "Greek yoghurt", "amount": "250g", "category": "Dairy & Eggs" },
-          { "name": "High-protein milk", "amount": "500ml", "category": "Drinks" },
-          { "name": "Rolled oats", "amount": "60g", "category": "Pantry" },
-          { "name": "Chia seeds", "amount": "2 tbsp", "category": "Pantry" }
+          { "name": "High-protein milk", "amount": "400ml", "category": "Drinks" },
+          { "name": "Greek yogurt (Chobani)", "amount": "350g", "category": "Dairy & Eggs" },
+          { "name": "Rolled oats", "amount": "60g (Penny)", "category": "Pantry" },
+          { "name": "Chia seeds", "amount": "1 tbsp (Penny)", "category": "Pantry" }
         ]
       },
       "lunch": {
         "name": "Chicken Thighs + Salad",
-        "jason": { "calories": 450, "protein": 50, "carbs": 8, "fat": 24 },
-        "penny": { "calories": 300, "protein": 33, "carbs": 5, "fat": 14 },
+        "jason": { "calories": 450, "protein": 50, "carbs": 8, "fat": 22 },
+        "penny": { "calories": 300, "protein": 33, "carbs": 6, "fat": 15 },
+        "notes": "Pilates tonight for both",
         "ingredients": [
-          { "name": "Chicken thighs", "amount": "330g", "category": "Meat & Seafood" },
-          { "name": "Rocket or spinach", "amount": "100g", "category": "Produce" },
-          { "name": "Tomato", "amount": "1", "category": "Produce" },
-          { "name": "Cucumber", "amount": "1", "category": "Produce" },
+          { "name": "Chicken thighs (boneless, skinless)", "amount": "330g (200g J, 130g P)", "category": "Meat & Seafood" },
+          { "name": "Rocket / spinach", "amount": "100g", "category": "Produce" },
+          { "name": "Tomatoes", "amount": "150g", "category": "Produce" },
+          { "name": "Cucumber", "amount": "100g", "category": "Produce" },
+          { "name": "Red onion", "amount": "1/4", "category": "Produce" },
           { "name": "Olive oil", "amount": "1 tbsp", "category": "Pantry" },
-          { "name": "Lemon", "amount": "1", "category": "Produce" }
-        ],
-        "notes": "Pilates evening for both"
+          { "name": "Lemon", "amount": "1/2", "category": "Produce" }
+        ]
       },
       "dinner": {
         "name": "Baked Salmon + Asparagus + Cherry Tomatoes",
-        "jason": { "calories": 755, "protein": 76, "carbs": 15, "fat": 42 },
-        "penny": { "calories": 550, "protein": 44, "carbs": 35, "fat": 26 },
+        "jason": { "calories": 755, "protein": 76, "carbs": 18, "fat": 35 },
+        "penny": { "calories": 550, "protein": 44, "carbs": 38, "fat": 20 },
         "ingredients": [
-          { "name": "Salmon fillets", "amount": "350g", "category": "Meat & Seafood" },
-          { "name": "Asparagus", "amount": "250g", "category": "Produce" },
-          { "name": "Cherry tomatoes", "amount": "180g", "category": "Produce" },
-          { "name": "Cottage cheese", "amount": "250g", "category": "Dairy & Eggs" },
-          { "name": "Brown rice", "amount": "100g", "category": "Pantry" },
+          { "name": "Salmon fillets", "amount": "350g (200g J, 150g P)", "category": "Meat & Seafood" },
+          { "name": "Asparagus", "amount": "250g (150g J, 100g P)", "category": "Produce" },
+          { "name": "Cherry tomatoes", "amount": "180g (100g J, 80g P)", "category": "Produce" },
+          { "name": "Cottage cheese", "amount": "250g (Jason only)", "category": "Dairy & Eggs" },
+          { "name": "Brown rice", "amount": "100g (Penny only)", "category": "Pantry" },
           { "name": "Olive oil", "amount": "1 tbsp", "category": "Pantry" },
-          { "name": "Lemon", "amount": "1", "category": "Produce" }
-        ],
-        "notes": "Jason has cottage cheese instead of rice; Penny has rice"
+          { "name": "Lemon", "amount": "1/2", "category": "Produce" },
+          { "name": "Fresh herbs (dill / parsley)", "amount": "small bunch", "category": "Produce" }
+        ]
       },
-      "jasonTotal": { "calories": 1777, "protein": 180, "carbs": 73, "fat": 83 },
-      "pennyTotal": { "calories": 1230, "protein": 112, "carbs": 82, "fat": 48 }
+      "snacks": null,
+      "jasonTotal": { "calories": 1777, "protein": 180, "carbs": 68, "fat": 77 },
+      "pennyTotal": { "calories": 1230, "protein": 112, "carbs": 89, "fat": 42 }
     },
     {
       "day": "Tuesday",
       "date": "2026-03-31",
       "breakfast": {
-        "name": "Jason's Breakfast Smoothie V5 / Penny's Overnight Oats",
-        "jason": { "calories": 572, "protein": 54, "carbs": 50, "fat": 17 },
-        "penny": { "calories": 380, "protein": 35, "carbs": 42, "fat": 8 },
+        "name": "Jason's Blended Smoothie / Penny's Overnight Oats",
+        "jason": { "calories": 572, "protein": 54, "carbs": 42, "fat": 20 },
+        "penny": { "calories": 380, "protein": 35, "carbs": 45, "fat": 7 },
         "ingredients": [
-          { "name": "Banana", "amount": "2", "category": "Produce" },
-          { "name": "Frozen mixed berries", "amount": "200g", "category": "Frozen" },
+          { "name": "Banana", "amount": "3 (2 J, 1 P)", "category": "Produce" },
           { "name": "Protein powder (vanilla)", "amount": "2 scoops", "category": "Pantry" },
-          { "name": "Greek yoghurt", "amount": "250g", "category": "Dairy & Eggs" },
-          { "name": "High-protein milk", "amount": "500ml", "category": "Drinks" },
-          { "name": "Rolled oats", "amount": "60g", "category": "Pantry" },
-          { "name": "Chia seeds", "amount": "2 tbsp", "category": "Pantry" }
+          { "name": "High-protein milk", "amount": "400ml", "category": "Drinks" },
+          { "name": "Greek yogurt (Chobani)", "amount": "350g", "category": "Dairy & Eggs" },
+          { "name": "Rolled oats", "amount": "60g (Penny)", "category": "Pantry" },
+          { "name": "Chia seeds", "amount": "1 tbsp (Penny)", "category": "Pantry" }
         ]
       },
       "lunch": {
         "name": "Chicken Thighs + Salad",
-        "jason": { "calories": 450, "protein": 50, "carbs": 8, "fat": 24 },
-        "penny": { "calories": 300, "protein": 33, "carbs": 5, "fat": 14 },
+        "jason": { "calories": 450, "protein": 50, "carbs": 8, "fat": 22 },
+        "penny": { "calories": 300, "protein": 33, "carbs": 6, "fat": 15 },
         "ingredients": [
-          { "name": "Chicken thighs", "amount": "330g", "category": "Meat & Seafood" },
-          { "name": "Rocket or spinach", "amount": "100g", "category": "Produce" },
-          { "name": "Tomato", "amount": "1", "category": "Produce" },
-          { "name": "Cucumber", "amount": "1", "category": "Produce" },
+          { "name": "Chicken thighs (boneless, skinless)", "amount": "330g (200g J, 130g P)", "category": "Meat & Seafood" },
+          { "name": "Rocket / spinach", "amount": "100g", "category": "Produce" },
+          { "name": "Tomatoes", "amount": "150g", "category": "Produce" },
+          { "name": "Cucumber", "amount": "100g", "category": "Produce" },
+          { "name": "Red onion", "amount": "1/4", "category": "Produce" },
           { "name": "Olive oil", "amount": "1 tbsp", "category": "Pantry" },
-          { "name": "Lemon", "amount": "1", "category": "Produce" }
+          { "name": "Lemon", "amount": "1/2", "category": "Produce" }
         ]
       },
       "dinner": {
         "name": "Baked Salmon + Asparagus + Cherry Tomatoes",
-        "jason": { "calories": 755, "protein": 76, "carbs": 15, "fat": 42 },
-        "penny": { "calories": 550, "protein": 44, "carbs": 35, "fat": 26 },
+        "jason": { "calories": 755, "protein": 76, "carbs": 18, "fat": 35 },
+        "penny": { "calories": 550, "protein": 44, "carbs": 38, "fat": 20 },
         "ingredients": [
-          { "name": "Salmon fillets", "amount": "350g", "category": "Meat & Seafood" },
-          { "name": "Asparagus", "amount": "250g", "category": "Produce" },
-          { "name": "Cherry tomatoes", "amount": "180g", "category": "Produce" },
-          { "name": "Cottage cheese", "amount": "250g", "category": "Dairy & Eggs" },
-          { "name": "Brown rice", "amount": "100g", "category": "Pantry" },
+          { "name": "Salmon fillets", "amount": "350g (200g J, 150g P)", "category": "Meat & Seafood" },
+          { "name": "Asparagus", "amount": "250g (150g J, 100g P)", "category": "Produce" },
+          { "name": "Cherry tomatoes", "amount": "180g (100g J, 80g P)", "category": "Produce" },
+          { "name": "Cottage cheese", "amount": "250g (Jason only)", "category": "Dairy & Eggs" },
+          { "name": "Brown rice", "amount": "100g (Penny only)", "category": "Pantry" },
           { "name": "Olive oil", "amount": "1 tbsp", "category": "Pantry" },
-          { "name": "Lemon", "amount": "1", "category": "Produce" }
-        ],
-        "notes": "Jason has cottage cheese instead of rice; Penny has rice"
+          { "name": "Lemon", "amount": "1/2", "category": "Produce" },
+          { "name": "Fresh herbs (dill / parsley)", "amount": "small bunch", "category": "Produce" }
+        ]
       },
-      "jasonTotal": { "calories": 1777, "protein": 180, "carbs": 73, "fat": 83 },
-      "pennyTotal": { "calories": 1230, "protein": 112, "carbs": 82, "fat": 48 }
+      "snacks": null,
+      "jasonTotal": { "calories": 1777, "protein": 180, "carbs": 68, "fat": 77 },
+      "pennyTotal": { "calories": 1230, "protein": 112, "carbs": 89, "fat": 42 }
     },
     {
       "day": "Wednesday",
       "date": "2026-04-01",
       "breakfast": {
-        "name": "Jason's Breakfast Smoothie V5 / Penny's Overnight Oats",
-        "jason": { "calories": 572, "protein": 54, "carbs": 50, "fat": 17 },
-        "penny": { "calories": 380, "protein": 35, "carbs": 42, "fat": 8 },
+        "name": "Jason's Blended Smoothie / Penny's Overnight Oats",
+        "jason": { "calories": 572, "protein": 54, "carbs": 42, "fat": 20 },
+        "penny": { "calories": 380, "protein": 35, "carbs": 45, "fat": 7 },
         "ingredients": [
-          { "name": "Banana", "amount": "2", "category": "Produce" },
-          { "name": "Frozen mixed berries", "amount": "200g", "category": "Frozen" },
+          { "name": "Banana", "amount": "3 (2 J, 1 P)", "category": "Produce" },
           { "name": "Protein powder (vanilla)", "amount": "2 scoops", "category": "Pantry" },
-          { "name": "Greek yoghurt", "amount": "250g", "category": "Dairy & Eggs" },
-          { "name": "High-protein milk", "amount": "500ml", "category": "Drinks" },
-          { "name": "Rolled oats", "amount": "60g", "category": "Pantry" },
-          { "name": "Chia seeds", "amount": "2 tbsp", "category": "Pantry" }
+          { "name": "High-protein milk", "amount": "400ml", "category": "Drinks" },
+          { "name": "Greek yogurt (Chobani)", "amount": "350g", "category": "Dairy & Eggs" },
+          { "name": "Rolled oats", "amount": "60g (Penny)", "category": "Pantry" },
+          { "name": "Chia seeds", "amount": "1 tbsp (Penny)", "category": "Pantry" }
         ]
       },
       "lunch": {
-        "name": "Chicken Savoury Mince + Rice (from batch)",
-        "jason": { "calories": 505, "protein": 46, "carbs": 42, "fat": 17 },
-        "penny": { "calories": 395, "protein": 36, "carbs": 34, "fat": 13 },
+        "name": "Chicken Savoury Mince + Brown Rice (from batch)",
+        "jason": { "calories": 505, "protein": 46, "carbs": 40, "fat": 12 },
+        "penny": { "calories": 395, "protein": 36, "carbs": 32, "fat": 10 },
         "ingredients": [
-          { "name": "Chicken savoury mince (from batch)", "amount": "450g", "category": "Meat & Seafood" },
-          { "name": "Brown rice", "amount": "180g", "category": "Pantry" }
+          { "name": "Chicken savoury mince (batch)", "amount": "450g total (250g J, 200g P)", "category": "Meat & Seafood" },
+          { "name": "Brown rice", "amount": "180g cooked (100g J, 80g P)", "category": "Pantry" },
+          { "name": "Onion", "amount": "1 (in batch)", "category": "Produce" },
+          { "name": "Garlic", "amount": "2 cloves (in batch)", "category": "Produce" },
+          { "name": "Carrot", "amount": "1 (in batch)", "category": "Produce" },
+          { "name": "Celery", "amount": "2 stalks (in batch)", "category": "Produce" },
+          { "name": "Chicken stock", "amount": "1 cup (in batch)", "category": "Pantry" },
+          { "name": "Mixed herbs", "amount": "1 tsp (in batch)", "category": "Pantry" }
         ]
       },
       "dinner": {
         "name": "Beef Strips Stir-Fry + Brown Rice",
-        "jason": { "calories": 530, "protein": 48, "carbs": 40, "fat": 20 },
-        "penny": { "calories": 360, "protein": 32, "carbs": 28, "fat": 13 },
+        "jason": { "calories": 530, "protein": 48, "carbs": 50, "fat": 15 },
+        "penny": { "calories": 360, "protein": 32, "carbs": 35, "fat": 10 },
         "ingredients": [
-          { "name": "Beef strips", "amount": "330g", "category": "Meat & Seafood" },
-          { "name": "Capsicum/bell peppers", "amount": "250g", "category": "Produce" },
-          { "name": "Broccolini", "amount": "300g", "category": "Produce" },
+          { "name": "Beef strips", "amount": "330g (200g J, 130g P)", "category": "Meat & Seafood" },
+          { "name": "Capsicum / bell peppers", "amount": "250g", "category": "Produce" },
+          { "name": "Broccolini / broccoli", "amount": "300g", "category": "Produce" },
           { "name": "Mushrooms", "amount": "150g", "category": "Produce" },
-          { "name": "Brown rice", "amount": "250g", "category": "Pantry" },
-          { "name": "Soy sauce", "amount": "2 tbsp", "category": "Sauces & Condiments" },
+          { "name": "Brown rice", "amount": "250g (150g J, 100g P)", "category": "Pantry" },
+          { "name": "Soy sauce", "amount": "2 tbsp", "category": "Pantry" },
           { "name": "Sesame oil", "amount": "1 tsp", "category": "Pantry" },
-          { "name": "Garlic", "amount": "3 cloves", "category": "Produce" },
+          { "name": "Garlic", "amount": "2 cloves", "category": "Produce" },
           { "name": "Ginger", "amount": "1 thumb", "category": "Produce" }
         ]
       },
-      "jasonTotal": { "calories": 1607, "protein": 148, "carbs": 132, "fat": 54 },
-      "pennyTotal": { "calories": 1135, "protein": 103, "carbs": 104, "fat": 34 }
+      "snacks": null,
+      "jasonTotal": { "calories": 1607, "protein": 148, "carbs": 132, "fat": 47 },
+      "pennyTotal": { "calories": 1135, "protein": 103, "carbs": 112, "fat": 27 }
     },
     {
       "day": "Thursday",
       "date": "2026-04-02",
       "breakfast": {
-        "name": "Jason's Breakfast Smoothie V5 / Penny's Overnight Oats",
-        "jason": { "calories": 572, "protein": 54, "carbs": 50, "fat": 17 },
-        "penny": { "calories": 380, "protein": 35, "carbs": 42, "fat": 8 },
+        "name": "Jason's Blended Smoothie / Penny's Overnight Oats",
+        "jason": { "calories": 572, "protein": 54, "carbs": 42, "fat": 20 },
+        "penny": { "calories": 380, "protein": 35, "carbs": 45, "fat": 7 },
         "ingredients": [
-          { "name": "Banana", "amount": "2", "category": "Produce" },
-          { "name": "Frozen mixed berries", "amount": "200g", "category": "Frozen" },
+          { "name": "Banana", "amount": "3 (2 J, 1 P)", "category": "Produce" },
           { "name": "Protein powder (vanilla)", "amount": "2 scoops", "category": "Pantry" },
-          { "name": "Greek yoghurt", "amount": "250g", "category": "Dairy & Eggs" },
-          { "name": "High-protein milk", "amount": "500ml", "category": "Drinks" },
-          { "name": "Rolled oats", "amount": "60g", "category": "Pantry" },
-          { "name": "Chia seeds", "amount": "2 tbsp", "category": "Pantry" }
+          { "name": "High-protein milk", "amount": "400ml", "category": "Drinks" },
+          { "name": "Greek yogurt (Chobani)", "amount": "350g", "category": "Dairy & Eggs" },
+          { "name": "Rolled oats", "amount": "60g (Penny)", "category": "Pantry" },
+          { "name": "Chia seeds", "amount": "1 tbsp (Penny)", "category": "Pantry" }
         ]
       },
       "lunch": {
-        "name": "Chicken Savoury Mince + Rice (light — save room for tonight)",
-        "jason": { "calories": 505, "protein": 46, "carbs": 42, "fat": 17 },
-        "penny": { "calories": 395, "protein": 36, "carbs": 34, "fat": 13 },
+        "name": "Chicken Savoury Mince + Brown Rice (from batch) — Light",
+        "jason": { "calories": 505, "protein": 46, "carbs": 40, "fat": 12 },
+        "penny": { "calories": 395, "protein": 36, "carbs": 32, "fat": 10 },
+        "notes": "Light lunch — save room for date night dinner!",
         "ingredients": [
-          { "name": "Chicken savoury mince (from batch)", "amount": "450g", "category": "Meat & Seafood" },
-          { "name": "Brown rice", "amount": "180g", "category": "Pantry" }
+          { "name": "Chicken savoury mince (batch)", "amount": "450g total (250g J, 200g P)", "category": "Meat & Seafood" },
+          { "name": "Brown rice", "amount": "180g cooked (100g J, 80g P)", "category": "Pantry" },
+          { "name": "Onion", "amount": "1 (in batch)", "category": "Produce" },
+          { "name": "Garlic", "amount": "2 cloves (in batch)", "category": "Produce" },
+          { "name": "Carrot", "amount": "1 (in batch)", "category": "Produce" },
+          { "name": "Celery", "amount": "2 stalks (in batch)", "category": "Produce" },
+          { "name": "Chicken stock", "amount": "1 cup (in batch)", "category": "Pantry" },
+          { "name": "Mixed herbs", "amount": "1 tsp (in batch)", "category": "Pantry" }
         ]
       },
       "dinner": {
-        "name": "Indian Date Night — Restaurant",
-        "jason": { "calories": 1750, "protein": 84, "carbs": 140, "fat": 95 },
-        "penny": { "calories": 1200, "protein": 65, "carbs": 98, "fat": 62 },
-        "ingredients": [],
-        "notes": "Eating out! Jason: chicken tikka, okra, dahl, naan, rice + drinks. Penny: chicken tikka, shared sides, half naan + drinks."
+        "name": "Date Night — Indian Restaurant 🍛",
+        "jason": { "calories": 1750, "protein": 84, "carbs": 120, "fat": 60 },
+        "penny": { "calories": 1200, "protein": 65, "carbs": 80, "fat": 40 },
+        "notes": "Chicken Tikka starter, Bhindi Masala (okra), Dahl, Garlic Naan, Rice + 1 beer + 1 wine each. Jason: easy Zwift spin in the morning first!",
+        "ingredients": []
       },
-      "jasonTotal": { "calories": 2827, "protein": 184, "carbs": 232, "fat": 129 },
-      "pennyTotal": { "calories": 1975, "protein": 136, "carbs": 174, "fat": 83 },
+      "snacks": null,
+      "jasonTotal": { "calories": 2827, "protein": 184, "carbs": 202, "fat": 92 },
+      "pennyTotal": { "calories": 1975, "protein": 136, "carbs": 157, "fat": 57 },
       "isDateNight": true,
-      "dateNightNote": "Indian restaurant — chicken tikka, okra, dahl, naan & rice"
+      "dateNightNote": "Indian restaurant — Chicken Tikka, Bhindi Masala, Dahl, Garlic Naan & rice"
     },
     {
       "day": "Friday",
       "date": "2026-04-03",
       "breakfast": {
-        "name": "Jason's Breakfast Smoothie V5 / Penny's Overnight Oats",
-        "jason": { "calories": 572, "protein": 54, "carbs": 50, "fat": 17 },
-        "penny": { "calories": 380, "protein": 35, "carbs": 42, "fat": 8 },
+        "name": "Jason's Blended Smoothie / Penny's Overnight Oats",
+        "jason": { "calories": 572, "protein": 54, "carbs": 42, "fat": 20 },
+        "penny": { "calories": 380, "protein": 35, "carbs": 45, "fat": 7 },
         "ingredients": [
-          { "name": "Banana", "amount": "2", "category": "Produce" },
-          { "name": "Frozen mixed berries", "amount": "200g", "category": "Frozen" },
+          { "name": "Banana", "amount": "3 (2 J, 1 P)", "category": "Produce" },
           { "name": "Protein powder (vanilla)", "amount": "2 scoops", "category": "Pantry" },
-          { "name": "Greek yoghurt", "amount": "250g", "category": "Dairy & Eggs" },
-          { "name": "High-protein milk", "amount": "500ml", "category": "Drinks" },
-          { "name": "Rolled oats", "amount": "60g", "category": "Pantry" },
-          { "name": "Chia seeds", "amount": "2 tbsp", "category": "Pantry" }
+          { "name": "High-protein milk", "amount": "400ml", "category": "Drinks" },
+          { "name": "Greek yogurt (Chobani)", "amount": "350g", "category": "Dairy & Eggs" },
+          { "name": "Rolled oats", "amount": "60g (Penny)", "category": "Pantry" },
+          { "name": "Chia seeds", "amount": "1 tbsp (Penny)", "category": "Pantry" }
         ]
       },
       "lunch": {
-        "name": "Chicken Savoury Mince + Rice (from batch)",
-        "jason": { "calories": 505, "protein": 46, "carbs": 42, "fat": 17 },
-        "penny": { "calories": 395, "protein": 36, "carbs": 34, "fat": 13 },
+        "name": "Chicken Savoury Mince + Brown Rice (from batch)",
+        "jason": { "calories": 505, "protein": 46, "carbs": 40, "fat": 12 },
+        "penny": { "calories": 395, "protein": 36, "carbs": 32, "fat": 10 },
         "ingredients": [
-          { "name": "Chicken savoury mince (from batch)", "amount": "450g", "category": "Meat & Seafood" },
-          { "name": "Brown rice", "amount": "180g", "category": "Pantry" }
+          { "name": "Chicken savoury mince (batch)", "amount": "450g total (250g J, 200g P)", "category": "Meat & Seafood" },
+          { "name": "Brown rice", "amount": "180g cooked (100g J, 80g P)", "category": "Pantry" },
+          { "name": "Onion", "amount": "1 (in batch)", "category": "Produce" },
+          { "name": "Garlic", "amount": "2 cloves (in batch)", "category": "Produce" },
+          { "name": "Carrot", "amount": "1 (in batch)", "category": "Produce" },
+          { "name": "Celery", "amount": "2 stalks (in batch)", "category": "Produce" },
+          { "name": "Chicken stock", "amount": "1 cup (in batch)", "category": "Pantry" },
+          { "name": "Mixed herbs", "amount": "1 tsp (in batch)", "category": "Pantry" }
         ]
       },
       "dinner": {
         "name": "Red Curry Chicken + Mushrooms + Brown Rice",
-        "jason": { "calories": 720, "protein": 55, "carbs": 55, "fat": 31 },
-        "penny": { "calories": 480, "protein": 38, "carbs": 38, "fat": 20 },
+        "jason": { "calories": 720, "protein": 55, "carbs": 58, "fat": 28 },
+        "penny": { "calories": 480, "protein": 38, "carbs": 42, "fat": 18 },
         "ingredients": [
-          { "name": "Chicken thighs", "amount": "330g", "category": "Meat & Seafood" },
-          { "name": "Red curry paste", "amount": "2 tbsp", "category": "Sauces & Condiments" },
-          { "name": "Coconut milk", "amount": "400ml", "category": "Pantry" },
-          { "name": "Mushrooms", "amount": "250g", "category": "Produce" },
-          { "name": "Brown rice", "amount": "250g", "category": "Pantry" }
+          { "name": "Chicken thighs (boneless, skinless)", "amount": "330g (200g J, 130g P)", "category": "Meat & Seafood" },
+          { "name": "Red curry paste", "amount": "2 tbsp", "category": "Pantry" },
+          { "name": "Coconut milk", "amount": "400ml (1 can)", "category": "Pantry" },
+          { "name": "Mushrooms", "amount": "150g", "category": "Produce" },
+          { "name": "Brown rice", "amount": "250g (150g J, 100g P)", "category": "Pantry" },
+          { "name": "Garlic", "amount": "2 cloves", "category": "Produce" }
         ]
       },
-      "jasonTotal": { "calories": 1797, "protein": 155, "carbs": 147, "fat": 65 },
-      "pennyTotal": { "calories": 1255, "protein": 109, "carbs": 114, "fat": 41 }
+      "snacks": null,
+      "jasonTotal": { "calories": 1797, "protein": 155, "carbs": 140, "fat": 60 },
+      "pennyTotal": { "calories": 1255, "protein": 109, "carbs": 119, "fat": 35 }
     }
   ]
 }
