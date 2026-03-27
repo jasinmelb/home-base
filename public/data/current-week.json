@@ -3,7 +3,7 @@
     "week": 17,
     "startDate": "2026-03-28",
     "generatedBy": "tubby",
-    "generatedAt": "2026-03-27T08:11:32.292Z"
+    "generatedAt": "2026-03-27T12:04:22.512Z"
   },
   "week": 17,
   "year": 2026,
@@ -786,13 +786,9 @@
             "name": "Garlic",
             "amount": "2 cloves",
             "category": "Produce"
-          },
-          {
-            "name": "Ginger",
-            "amount": "1 thumb",
-            "category": "Produce"
           }
-        ]
+        ],
+        "notes": "Ginger paste already in fridge — no need to buy"
       },
       "snacks": {
         "name": "None planned",
