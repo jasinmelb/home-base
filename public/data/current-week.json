@@ -3,7 +3,7 @@
     "week": 17,
     "startDate": "2026-03-28",
     "generatedBy": "tubby",
-    "generatedAt": "2026-03-27T07:28:00.000Z"
+    "generatedAt": "2026-03-27T06:52:55.560Z"
   },
   "week": 17,
   "year": 2026,
@@ -207,7 +207,6 @@
           "carbs": 6,
           "fat": 15
         },
-        "notes": "Batch cook day — 3kg chicken mince going on after lunch!",
         "ingredients": [
           {
             "name": "Chicken thighs (boneless, skinless)",
@@ -260,49 +259,8 @@
           "carbs": 65,
           "fat": 32
         },
-        "notes": "Out with neighbours for Comedy Festival — pub/bar food. Batch cook happening during the day!",
-        "ingredients": [
-          {
-            "name": "Chicken mince (for batch cook)",
-            "amount": "3kg",
-            "category": "Meat & Seafood"
-          },
-          {
-            "name": "Brown rice (for batch cook)",
-            "amount": "3 cups dry",
-            "category": "Pantry"
-          },
-          {
-            "name": "Onion (for batch cook)",
-            "amount": "2 large",
-            "category": "Produce"
-          },
-          {
-            "name": "Garlic (for batch cook)",
-            "amount": "1 bulb",
-            "category": "Produce"
-          },
-          {
-            "name": "Carrot (for batch cook)",
-            "amount": "2",
-            "category": "Produce"
-          },
-          {
-            "name": "Celery (for batch cook)",
-            "amount": "4 stalks",
-            "category": "Produce"
-          },
-          {
-            "name": "Chicken stock (for batch cook)",
-            "amount": "4 cups",
-            "category": "Pantry"
-          },
-          {
-            "name": "Mixed herbs (for batch cook)",
-            "amount": "2 tsp",
-            "category": "Spices & Seasonings"
-          }
-        ]
+        "notes": "Out with neighbours for Comedy Festival — pub/bar food.",
+        "ingredients": []
       },
       "snacks": {
         "name": "None planned",
@@ -384,54 +342,64 @@
         ]
       },
       "lunch": {
-        "name": "Chicken Thighs + Salad",
+        "name": "Jason's Smoked Salmon Sandwich / Penny's Salmon + Rice + Tomato",
         "jason": {
-          "calories": 450,
-          "protein": 50,
-          "carbs": 8,
-          "fat": 22
+          "calories": 365,
+          "protein": 26,
+          "carbs": 28,
+          "fat": 18
         },
         "penny": {
-          "calories": 300,
-          "protein": 33,
-          "carbs": 6,
-          "fat": 15
+          "calories": 390,
+          "protein": 37,
+          "carbs": 35,
+          "fat": 10
         },
-        "notes": "Group class 6pm tonight for both",
+        "notes": "Jason: rye bread, smoked salmon, cream cheese, avocado, capers. Penny: salmon, rice, cherry tomatoes.",
         "ingredients": [
           {
-            "name": "Chicken thighs (boneless, skinless)",
-            "amount": "330g (200g J, 130g P)",
+            "name": "Rye bread",
+            "amount": "2 slices (Jason)",
+            "category": "Bakery"
+          },
+          {
+            "name": "Smoked salmon",
+            "amount": "70-80g (Jason)",
             "category": "Meat & Seafood"
           },
           {
-            "name": "Rocket / spinach",
-            "amount": "100g",
+            "name": "Cream cheese",
+            "amount": "2 tbsp (Jason)",
+            "category": "Dairy & Eggs"
+          },
+          {
+            "name": "Avocado",
+            "amount": "1/4 (Jason)",
             "category": "Produce"
           },
           {
-            "name": "Tomatoes",
-            "amount": "150g",
-            "category": "Produce"
-          },
-          {
-            "name": "Cucumber",
-            "amount": "100g",
-            "category": "Produce"
+            "name": "Capers",
+            "amount": "1 tsp (Jason)",
+            "category": "Sauces & Condiments"
           },
           {
             "name": "Red onion",
-            "amount": "1/4",
+            "amount": "few slices (Jason)",
             "category": "Produce"
           },
           {
-            "name": "Olive oil",
-            "amount": "1 tbsp",
+            "name": "Salmon fillet (Penny)",
+            "amount": "100g",
+            "category": "Meat & Seafood"
+          },
+          {
+            "name": "Brown rice (Penny)",
+            "amount": "80g cooked",
             "category": "Pantry"
           },
           {
-            "name": "Lemon",
-            "amount": "1/2",
+            "name": "Cherry tomatoes",
+            "amount": "80g (Penny)",
             "category": "Produce"
           }
         ]
@@ -510,16 +478,16 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 1777,
-        "protein": 180,
-        "carbs": 68,
-        "fat": 77
+        "calories": 1692,
+        "protein": 156,
+        "carbs": 88,
+        "fat": 73
       },
       "pennyTotal": {
-        "calories": 1230,
-        "protein": 112,
-        "carbs": 89,
-        "fat": 42
+        "calories": 1320,
+        "protein": 116,
+        "carbs": 118,
+        "fat": 37
       }
     },
     {
@@ -573,53 +541,64 @@
         ]
       },
       "lunch": {
-        "name": "Chicken Thighs + Salad",
+        "name": "Jason's Smoked Salmon Sandwich / Penny's Salmon + Rice + Tomato",
         "jason": {
-          "calories": 450,
-          "protein": 50,
-          "carbs": 8,
-          "fat": 22
+          "calories": 365,
+          "protein": 26,
+          "carbs": 28,
+          "fat": 18
         },
         "penny": {
-          "calories": 300,
-          "protein": 33,
-          "carbs": 6,
-          "fat": 15
+          "calories": 390,
+          "protein": 37,
+          "carbs": 35,
+          "fat": 10
         },
+        "notes": "Jason: rye bread, smoked salmon, cream cheese, avocado, capers. Penny: salmon, rice, cherry tomatoes.",
         "ingredients": [
           {
-            "name": "Chicken thighs (boneless, skinless)",
-            "amount": "330g (200g J, 130g P)",
+            "name": "Rye bread",
+            "amount": "2 slices (Jason)",
+            "category": "Bakery"
+          },
+          {
+            "name": "Smoked salmon",
+            "amount": "70-80g (Jason)",
             "category": "Meat & Seafood"
           },
           {
-            "name": "Rocket / spinach",
-            "amount": "100g",
+            "name": "Cream cheese",
+            "amount": "2 tbsp (Jason)",
+            "category": "Dairy & Eggs"
+          },
+          {
+            "name": "Avocado",
+            "amount": "1/4 (Jason)",
             "category": "Produce"
           },
           {
-            "name": "Tomatoes",
-            "amount": "150g",
-            "category": "Produce"
-          },
-          {
-            "name": "Cucumber",
-            "amount": "100g",
-            "category": "Produce"
+            "name": "Capers",
+            "amount": "1 tsp (Jason)",
+            "category": "Sauces & Condiments"
           },
           {
             "name": "Red onion",
-            "amount": "1/4",
+            "amount": "few slices (Jason)",
             "category": "Produce"
           },
           {
-            "name": "Olive oil",
-            "amount": "1 tbsp",
+            "name": "Salmon fillet (Penny)",
+            "amount": "100g",
+            "category": "Meat & Seafood"
+          },
+          {
+            "name": "Brown rice (Penny)",
+            "amount": "80g cooked",
             "category": "Pantry"
           },
           {
-            "name": "Lemon",
-            "amount": "1/2",
+            "name": "Cherry tomatoes",
+            "amount": "80g (Penny)",
             "category": "Produce"
           }
         ]
@@ -688,16 +667,16 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 1742,
-        "protein": 159,
-        "carbs": 108,
-        "fat": 70
+        "calories": 1657,
+        "protein": 135,
+        "carbs": 128,
+        "fat": 66
       },
       "pennyTotal": {
-        "calories": 1160,
-        "protein": 106,
-        "carbs": 93,
-        "fat": 40
+        "calories": 1250,
+        "protein": 110,
+        "carbs": 122,
+        "fat": 35
       }
     },
     {
@@ -751,29 +730,65 @@
         ]
       },
       "lunch": {
-        "name": "Chicken Savoury Mince + Brown Rice (from batch)",
+        "name": "Jason's Smoked Salmon Sandwich / Penny's Chicken + Rice + Tomato",
         "jason": {
-          "calories": 505,
-          "protein": 46,
-          "carbs": 40,
-          "fat": 12
+          "calories": 365,
+          "protein": 26,
+          "carbs": 28,
+          "fat": 18
         },
         "penny": {
-          "calories": 395,
-          "protein": 36,
-          "carbs": 32,
-          "fat": 10
+          "calories": 370,
+          "protein": 35,
+          "carbs": 33,
+          "fat": 8
         },
+        "notes": "Eat before 2pm — leaving for Bright at 2pm! 🚗 Jason: smoked salmon sandwich. Penny: chicken + rice + tomato.",
         "ingredients": [
           {
-            "name": "Chicken savoury mince (batch)",
-            "amount": "450g total (250g J, 200g P)",
+            "name": "Rye bread",
+            "amount": "2 slices (Jason)",
+            "category": "Bakery"
+          },
+          {
+            "name": "Smoked salmon",
+            "amount": "70-80g (Jason)",
             "category": "Meat & Seafood"
           },
           {
-            "name": "Brown rice",
-            "amount": "180g cooked (100g J, 80g P)",
+            "name": "Cream cheese",
+            "amount": "2 tbsp (Jason)",
+            "category": "Dairy & Eggs"
+          },
+          {
+            "name": "Avocado",
+            "amount": "1/4 (Jason)",
+            "category": "Produce"
+          },
+          {
+            "name": "Capers",
+            "amount": "1 tsp (Jason)",
+            "category": "Sauces & Condiments"
+          },
+          {
+            "name": "Red onion",
+            "amount": "few slices (Jason)",
+            "category": "Produce"
+          },
+          {
+            "name": "Chicken breast (Penny)",
+            "amount": "130g",
+            "category": "Meat & Seafood"
+          },
+          {
+            "name": "Brown rice (Penny)",
+            "amount": "80g cooked",
             "category": "Pantry"
+          },
+          {
+            "name": "Cherry tomatoes",
+            "amount": "80g (Penny)",
+            "category": "Produce"
           }
         ]
       },
@@ -856,16 +871,16 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 1607,
-        "protein": 148,
-        "carbs": 132,
-        "fat": 47
+        "calories": 1467,
+        "protein": 128,
+        "carbs": 120,
+        "fat": 53
       },
       "pennyTotal": {
-        "calories": 1135,
-        "protein": 103,
-        "carbs": 112,
-        "fat": 27
+        "calories": 1110,
+        "protein": 102,
+        "carbs": 113,
+        "fat": 25
       }
     },
     {
@@ -919,30 +934,65 @@
         ]
       },
       "lunch": {
-        "name": "Chicken Savoury Mince + Brown Rice (from batch) — Light",
+        "name": "Jason's Smoked Salmon Sandwich / Penny's Chicken + Rice + Tomato",
         "jason": {
-          "calories": 505,
-          "protein": 46,
-          "carbs": 40,
-          "fat": 12
+          "calories": 365,
+          "protein": 26,
+          "carbs": 28,
+          "fat": 18
         },
         "penny": {
-          "calories": 395,
-          "protein": 36,
-          "carbs": 32,
-          "fat": 10
+          "calories": 370,
+          "protein": 35,
+          "carbs": 33,
+          "fat": 8
         },
-        "notes": "Eat before 2pm — leaving for Bright at 2pm! 🚗",
+        "notes": "Eat before 2pm — leaving for Bright at 2pm! 🚗 Jason: smoked salmon sandwich. Penny: chicken + rice + tomato.",
         "ingredients": [
           {
-            "name": "Chicken savoury mince (batch)",
-            "amount": "450g total (250g J, 200g P)",
+            "name": "Rye bread",
+            "amount": "2 slices (Jason)",
+            "category": "Bakery"
+          },
+          {
+            "name": "Smoked salmon",
+            "amount": "70-80g (Jason)",
             "category": "Meat & Seafood"
           },
           {
-            "name": "Brown rice",
-            "amount": "180g cooked (100g J, 80g P)",
+            "name": "Cream cheese",
+            "amount": "2 tbsp (Jason)",
+            "category": "Dairy & Eggs"
+          },
+          {
+            "name": "Avocado",
+            "amount": "1/4 (Jason)",
+            "category": "Produce"
+          },
+          {
+            "name": "Capers",
+            "amount": "1 tsp (Jason)",
+            "category": "Sauces & Condiments"
+          },
+          {
+            "name": "Red onion",
+            "amount": "few slices (Jason)",
+            "category": "Produce"
+          },
+          {
+            "name": "Chicken breast (Penny)",
+            "amount": "130g",
+            "category": "Meat & Seafood"
+          },
+          {
+            "name": "Brown rice (Penny)",
+            "amount": "80g cooked",
             "category": "Pantry"
+          },
+          {
+            "name": "Cherry tomatoes",
+            "amount": "80g (Penny)",
+            "category": "Produce"
           }
         ]
       },
@@ -980,16 +1030,16 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 1977,
-        "protein": 155,
-        "carbs": 152,
-        "fat": 67
+        "calories": 1837,
+        "protein": 135,
+        "carbs": 140,
+        "fat": 73
       },
       "pennyTotal": {
-        "calories": 1475,
-        "protein": 111,
-        "carbs": 132,
-        "fat": 45
+        "calories": 1450,
+        "protein": 110,
+        "carbs": 133,
+        "fat": 43
       },
       "isDateNight": false,
       "dateNightNote": "Road trip to Bright! 🚗🏔️ Leave 2pm, arrive ~5:30pm. Dinner out in Bright together."
