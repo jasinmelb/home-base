@@ -1,14 +1,12 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
-function getWeekLabel(): string {
-  const now = new Date();
-  const start = new Date(now.getFullYear(), 0, 1);
-  const diff = now.getTime() - start.getTime();
-  const oneWeek = 604800000;
-  const week = Math.ceil((diff / oneWeek + start.getDay() + 1) / 7);
-  return `Week ${week}`;
+interface MealPlanMeta {
+  week: number;
+  startDate: string;
+  endDate: string;
 }
 
 function getPageTitle(pathname: string): string {
@@ -23,8 +21,32 @@ function getPageEmoji(pathname: string): string {
   return "🏠";
 }
 
+function formatDateRange(startDate: string, endDate: string): string {
+  const start = new Date(startDate + "T00:00:00");
+  const end = new Date(endDate + "T00:00:00");
+  const opts: Intl.DateTimeFormatOptions = { month: "short", day: "numeric" };
+  return `${start.toLocaleDateString("en-US", opts)}–${end.toLocaleDateString("en-US", opts)}`;
+}
+
 export function Header() {
   const pathname = usePathname();
+  const [meta, setMeta] = useState<MealPlanMeta | null>(null);
+
+  useEffect(() => {
+    fetch("/data/current-week.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setMeta({
+          week: data.metadata?.week || data.week,
+          startDate: data.startDate,
+          endDate: data.endDate,
+        });
+      })
+      .catch(() => {});
+  }, []);
+
+  const weekLabel = meta ? `Week ${meta.week}` : "Home Base";
+  const dateRange = meta ? formatDateRange(meta.startDate, meta.endDate) : "";
 
   return (
     <header className="sticky top-0 z-40 bg-gradient-to-r from-brand/10 via-warm-orange/5 to-coral/5 backdrop-blur-lg">
@@ -38,8 +60,15 @@ export function Header() {
             <p className="text-[11px] font-medium text-muted-foreground">Home Base</p>
           </div>
         </div>
-        <div className="rounded-full bg-brand/15 px-3 py-1 text-xs font-semibold text-brand-dark">
-          {getWeekLabel()}
+        <div className="text-right">
+          <div className="rounded-full bg-brand/15 px-3 py-1 text-xs font-semibold text-brand-dark">
+            {weekLabel}
+          </div>
+          {dateRange && (
+            <div className="mt-0.5 text-[10px] text-muted-foreground">
+              {dateRange}
+            </div>
+          )}
         </div>
       </div>
       <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
