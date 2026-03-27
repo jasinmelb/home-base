@@ -3,7 +3,7 @@
     "week": 17,
     "startDate": "2026-03-28",
     "generatedBy": "tubby",
-    "generatedAt": "2026-03-27T07:08:22.579Z"
+    "generatedAt": "2026-03-27T08:11:32.292Z"
   },
   "week": 17,
   "year": 2026,
@@ -184,56 +184,21 @@
         ]
       },
       "lunch": {
-        "name": "Chicken Thighs + Salad",
+        "name": "Lunch OUT (before Comedy Festival)",
         "jason": {
-          "calories": 450,
-          "protein": 50,
-          "carbs": 8,
-          "fat": 22
+          "calories": 800,
+          "protein": 35,
+          "carbs": 60,
+          "fat": 30
         },
         "penny": {
-          "calories": 300,
-          "protein": 33,
-          "carbs": 6,
-          "fat": 15
+          "calories": 600,
+          "protein": 25,
+          "carbs": 45,
+          "fat": 22
         },
-        "ingredients": [
-          {
-            "name": "Chicken thighs (boneless, skinless)",
-            "amount": "660g total (6 thighs — 3 for Sun lunch, 3 for Tue dinner)",
-            "category": "Meat & Seafood"
-          },
-          {
-            "name": "Rocket / spinach",
-            "amount": "100g",
-            "category": "Produce"
-          },
-          {
-            "name": "Tomatoes",
-            "amount": "150g",
-            "category": "Produce"
-          },
-          {
-            "name": "Cucumber",
-            "amount": "100g",
-            "category": "Produce"
-          },
-          {
-            "name": "Red onion",
-            "amount": "1/4",
-            "category": "Produce"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tbsp",
-            "category": "Pantry"
-          },
-          {
-            "name": "Lemon",
-            "amount": "1/2",
-            "category": "Produce"
-          }
-        ]
+        "notes": "Eating out before Comedy Festival — no cooking, no shopping needed",
+        "ingredients": []
       },
       "dinner": {
         "name": "Dinner OUT — Comedy Festival 🎭",
@@ -269,16 +234,16 @@
         "ingredients": []
       },
       "jasonTotal": {
-        "calories": 2222,
-        "protein": 154,
-        "carbs": 140,
-        "fat": 87
+        "calories": 2572,
+        "protein": 139,
+        "carbs": 192,
+        "fat": 95
       },
       "pennyTotal": {
-        "calories": 1530,
-        "protein": 103,
-        "carbs": 116,
-        "fat": 54
+        "calories": 1830,
+        "protein": 95,
+        "carbs": 155,
+        "fat": 61
       }
     },
     {
@@ -598,6 +563,11 @@
           "fat": 18
         },
         "ingredients": [
+          {
+            "name": "Chicken thighs (boneless, skinless)",
+            "amount": "330g (200g J, 130g P) — 3 thighs for Tue dinner only",
+            "category": "Meat & Seafood"
+          },
           {
             "name": "Red curry paste",
             "amount": "2 tbsp",
