@@ -2,24 +2,24 @@
   "recipes": [
     {
       "slug": "jason-breakfast-smoothie",
-      "name": "Jason's Breakfast Smoothie",
+      "name": "Jason's Breakfast Smoothie V5",
       "category": "Breakfast",
       "emoji": "🥤",
       "prepTime": "5 min",
       "ingredients": [
-        { "name": "Protein powder (Raw Protein Isolate)", "amount": "30g (1 scoop)" },
-        { "name": "Full cream milk", "amount": "375ml" },
-        { "name": "Greek yogurt", "amount": "200g" },
-        { "name": "Banana", "amount": "1 medium" }
+        { "name": "High-protein milk", "amount": "375ml" },
+        { "name": "Banana", "amount": "1 medium" },
+        { "name": "Chobani Greek yogurt", "amount": "100g" },
+        { "name": "Collagen Co protein powder", "amount": "42g (2 scoops)" }
       ],
-      "jason": { "calories": 542, "protein": 55.7, "carbs": 42, "fat": 18, "portion": "Full recipe" },
-      "penny": { "calories": 400, "protein": 42, "carbs": 32, "fat": 13, "portion": "3/4 recipe" },
+      "jason": { "calories": 572, "protein": 54, "carbs": 45, "fat": 18, "portion": "Full recipe" },
+      "penny": { "calories": 0, "protein": 0, "carbs": 0, "fat": 0, "portion": "N/A — Jason only" },
       "method": [
         "Add all ingredients to blender",
         "Blend until smooth",
-        "Pour and drink"
+        "Pour and drink immediately"
       ],
-      "notes": "Must finish by 8:15am (shower constraint). 15-20 min prep max. High-protein focus to hit daily 150g+ target."
+      "notes": "Jason's daily breakfast standard. 572 kcal, 54g protein — strong start to hit 150g+ daily protein target. Jason-only recipe."
     },
     {
       "slug": "penny-overnight-oats",
