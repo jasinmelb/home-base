@@ -106,22 +106,3 @@ export function groupByCategory(
   }));
 }
 
-const STORAGE_KEY = "home-base-shopping-checked";
-
-export function loadCheckedItems(): Set<string> {
-  if (typeof window === "undefined") return new Set();
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) {
-      return new Set(JSON.parse(raw));
-    }
-  } catch {
-    // ignore
-  }
-  return new Set();
-}
-
-export function saveCheckedItems(checked: Set<string>): void {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify([...checked]));
-}

@@ -1,12 +1,10 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { WeekPlan } from "@/types/meal-plan";
 import {
   generateShoppingList,
   groupByCategory,
-  loadCheckedItems,
-  saveCheckedItems,
 } from "@/lib/shopping";
 import { Checkbox } from "@/components/ui/checkbox";
 import { cn } from "@/lib/utils";
@@ -37,28 +35,62 @@ const categoryColors: Record<string, string> = {
   Other: "bg-gray-100 text-gray-700",
 };
 
+function timeSince(date: Date): string {
+  const seconds = Math.floor((Date.now() - date.getTime()) / 1000);
+  if (seconds < 5) return "just now";
+  if (seconds < 60) return `${seconds}s ago`;
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 60) return `${minutes}m ago`;
+  const hours = Math.floor(minutes / 60);
+  return `${hours}h ago`;
+}
+
 export default function ShoppingListPage() {
   const [weekPlan, setWeekPlan] = useState<WeekPlan | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [checkedItems, setCheckedItems] = useState<Set<string>>(new Set());
   const [mounted, setMounted] = useState(false);
   const [justChecked, setJustChecked] = useState<string | null>(null);
+  const [lastSynced, setLastSynced] = useState<Date | null>(null);
+  const [syncLabel, setSyncLabel] = useState("");
+  const syncTimer = useRef<ReturnType<typeof setInterval>>(undefined);
 
+  // Update the "synced X ago" label every 5s
   useEffect(() => {
-    setCheckedItems(loadCheckedItems());
-    fetch("/data/current-week.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to load meal plan");
-        return res.json();
-      })
-      .then((data: WeekPlan) => {
-        setWeekPlan(data);
+    if (!lastSynced) return;
+    const update = () => setSyncLabel(timeSince(lastSynced));
+    update();
+    syncTimer.current = setInterval(update, 5000);
+    return () => clearInterval(syncTimer.current);
+  }, [lastSynced]);
+
+  // Load data on mount
+  useEffect(() => {
+    Promise.all([
+      fetch("/api/shopping").then((r) => r.json()),
+      fetch("/data/current-week.json").then((r) => {
+        if (!r.ok) throw new Error("Failed to load meal plan");
+        return r.json();
+      }),
+    ])
+      .then(([state, plan]) => {
+        setCheckedItems(new Set(state.checked ?? []));
+        setLastSynced(new Date());
+        setWeekPlan(plan);
         setMounted(true);
       })
       .catch((err) => {
         setError(err.message);
         setMounted(true);
       });
+  }, []);
+
+  const syncToServer = useCallback((items: Set<string>) => {
+    fetch("/api/shopping", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ checked: [...items] }),
+    }).then(() => setLastSynced(new Date()));
   }, []);
 
   const toggleItem = useCallback(
@@ -73,16 +105,18 @@ export default function ShoppingListPage() {
           setJustChecked(name);
           setTimeout(() => setJustChecked(null), 300);
         }
-        saveCheckedItems(next);
+        syncToServer(next);
         return next;
       });
     },
-    []
+    [syncToServer]
   );
 
   const resetAll = useCallback(() => {
     setCheckedItems(new Set());
-    saveCheckedItems(new Set());
+    fetch("/api/shopping", { method: "DELETE" }).then(() =>
+      setLastSynced(new Date())
+    );
   }, []);
 
   if (!mounted) {
@@ -202,6 +236,13 @@ export default function ShoppingListPage() {
           </div>
         );
       })}
+
+      {/* Sync indicator */}
+      {lastSynced && (
+        <div className="text-center text-[11px] text-muted-foreground/60 pb-2">
+          Synced {syncLabel}
+        </div>
+      )}
     </div>
   );
 }
