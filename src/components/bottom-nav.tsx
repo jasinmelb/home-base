@@ -8,6 +8,7 @@ const tabs = [
   { href: "/meal-plan", label: "Meal Plan", icon: "🍽️" },
   { href: "/shopping-list", label: "Shopping", icon: "🛒" },
   { href: "/recipes", label: "Recipes", icon: "📖" },
+  { href: "/health", label: "Health", icon: "❤️" },
 ];
 
 export function BottomNav() {
