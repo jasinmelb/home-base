@@ -54,6 +54,8 @@ export default function ShoppingListPage() {
   const [lastSynced, setLastSynced] = useState<Date | null>(null);
   const [syncLabel, setSyncLabel] = useState("");
   const syncTimer = useRef<ReturnType<typeof setInterval>>(undefined);
+  const lastLocalChange = useRef<number>(0);
+  const lastKnownUpdatedAt = useRef<string>("");
 
   // Update the "synced X ago" label every 5s
   useEffect(() => {
@@ -75,6 +77,7 @@ export default function ShoppingListPage() {
     ])
       .then(([state, plan]) => {
         setCheckedItems(new Set(state.checked ?? []));
+        lastKnownUpdatedAt.current = state.updatedAt ?? "";
         setLastSynced(new Date());
         setWeekPlan(plan);
         setMounted(true);
@@ -85,12 +88,41 @@ export default function ShoppingListPage() {
       });
   }, []);
 
+  // Poll for real-time sync every 3 seconds
+  useEffect(() => {
+    if (!mounted) return;
+    const poll = setInterval(async () => {
+      try {
+        const res = await fetch("/api/shopping");
+        if (!res.ok) return;
+        const state = await res.json();
+        const serverUpdatedAt: string = state.updatedAt ?? "";
+        // Only update if server has newer data and no local change in last 2s
+        if (
+          serverUpdatedAt > lastKnownUpdatedAt.current &&
+          Date.now() - lastLocalChange.current > 2000
+        ) {
+          lastKnownUpdatedAt.current = serverUpdatedAt;
+          setCheckedItems(new Set(state.checked ?? []));
+          setLastSynced(new Date());
+        }
+      } catch {
+        // Silently ignore poll errors
+      }
+    }, 3000);
+    return () => clearInterval(poll);
+  }, [mounted]);
+
   const syncToServer = useCallback((items: Set<string>) => {
+    lastLocalChange.current = Date.now();
     fetch("/api/shopping", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ checked: [...items] }),
-    }).then(() => setLastSynced(new Date()));
+    }).then((res) => res.json()).then((state) => {
+      lastKnownUpdatedAt.current = state.updatedAt ?? "";
+      setLastSynced(new Date());
+    });
   }, []);
 
   const toggleItem = useCallback(
@@ -114,9 +146,11 @@ export default function ShoppingListPage() {
 
   const resetAll = useCallback(() => {
     setCheckedItems(new Set());
-    fetch("/api/shopping", { method: "DELETE" }).then(() =>
-      setLastSynced(new Date())
-    );
+    lastLocalChange.current = Date.now();
+    fetch("/api/shopping", { method: "DELETE" }).then((res) => res.json()).then((state) => {
+      lastKnownUpdatedAt.current = state.updatedAt ?? "";
+      setLastSynced(new Date());
+    });
   }, []);
 
   if (!mounted) {
@@ -239,8 +273,12 @@ export default function ShoppingListPage() {
 
       {/* Sync indicator */}
       {lastSynced && (
-        <div className="text-center text-[11px] text-muted-foreground/60 pb-2">
-          Synced {syncLabel}
+        <div className="flex items-center justify-center gap-2 text-[11px] text-muted-foreground/60 pb-2">
+          <span className="flex items-center gap-1">
+            <span className="inline-block h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse" />
+            <span className="text-green-600/70">Live</span>
+          </span>
+          <span>· Synced {syncLabel}</span>
         </div>
       )}
     </div>
